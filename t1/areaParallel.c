@@ -15,7 +15,7 @@ int main(){
 
 
 
-for(NPOINTS=500; NPOINTS<=5000; NPOINTS+=500) {
+for(NPOINTS=1000; NPOINTS<=1500; NPOINTS+=50) {
 
 
   int numoutside = 0;
