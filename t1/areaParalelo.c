@@ -28,11 +28,10 @@ int main()
         int iter;
         start = omp_get_wtime();
 
-    #pragma omp parallel private(i, j, iter, c, z, ztemp) reduction(+ \
-                                                                : numoutside)
+#pragma omp parallel private(i, j, iter, c, z, ztemp)
         {
-        //PARALLELIZING
-        #pragma omp for
+//PARALLELIZING EXTERNAL LOOP
+#pragma omp for
             for (i = 0; i < NPOINTS; i++)
             {
                 for (j = 0; j < NPOINTS; j++)

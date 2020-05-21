@@ -18,14 +18,6 @@ int main()
   double start, finish;
   struct complex z, c;
 
-  /*
- *   
- *
- *     Outer loops run over npoints, initialise z=c
- *
- *     Inner loop has the iteration z=z*z+c, and threshold test
- */
-
   for (NPOINTS=500; NPOINTS <= 5000; NPOINTS += 500)
   {
 
