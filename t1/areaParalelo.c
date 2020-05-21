@@ -31,6 +31,7 @@ int main()
 #pragma omp parallel private(i, j, iter, c, z, ztemp)
         {
 //PARALLELIZING EXTERNAL LOOP
+int numoutsideAux = 0
 #pragma omp for
             for (i = 0; i < NPOINTS; i++)
             {
@@ -46,12 +47,16 @@ int main()
                         z.real = ztemp;
                         if ((z.real * z.real + z.imag * z.imag) > 4.0e0)
                         {
-                            numoutside++;
+                            numoutsideAux++;
                             break;
                         }
                     }
                 }
             }
+
+            #pragma omp critical
+                numoutside += numoutsideAux
+
         }
 
         finish = omp_get_wtime();

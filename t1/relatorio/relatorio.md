@@ -67,8 +67,7 @@ int main()
 Analizando o trecho do código sequencial acima, as variáveis mais óbvias, em primeira análise, eram as definidas para a própria iteração dos laços, `i`, `j` e `iter`. A variável `NPOINTS` é na verdade uma constante dentro de cada iteração do programa estamos testando, e não é alterada nunca. Da mesma forma, as variáveis `start` e `finish` são executadas apenas após a finalização da execução dos 3 laços aninhados. Além de `i`, `j`, e `iter`, os structs `z` e `c` de `complex` devem possuir instâncias dentro de cada thread, para que a execução de uma _thread_ com essas variáveis não sobrescreva os resultados em outras. Deste modo, nossa diretiva de paralelização ficou da seguinte forma:
 
 ```
-#pragma omp parallel private(i, j, iter, c, z, ztemp) reduction(+ \
-                                                                : numoutside)
+#pragma omp parallel private(i, j, iter, c, z, ztemp)
 {
 	//PARALLELIZING EXTERNAL LOOP
 	#pragma omp for
@@ -77,6 +76,16 @@ Analizando o trecho do código sequencial acima, as variáveis mais óbvias, em 
             ...
 	
 ```
+
+Faltava apenas a questão de como lidar com a variável `numOutside`, que é utilizada fora do laço paralelizado, mas increnentada no laço mais externo caso os número complexos testados não façam parte do Conjunto de Mandelbrot. Por se tratar apenas se uma operação de incrementar essa variável, testamos o comportamento do programa mantendo esta variável fora do mais externo laço e permitindo que as _threads_ a incrementássem a seu bel prazer.
+
+Entretanto, ao testarmos verificamos que os resultados não batiam com os da versão sequencial, e a explicação estava justamente na atualização concorrente que as _threads_ estavam fazendo na mesma variável, o que possibilitou que ela não fosse incrementada corretamente.
+
+Tal fenômeno se consistia em uma sessão crítica identificada no trecho de código abaixo:
+
+```
+
+``` 
 
 ## Resultados obtidos
 
