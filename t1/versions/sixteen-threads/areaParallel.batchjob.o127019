@@ -1,0 +1,66 @@
+--------------------------------------
+Running PBS prologue script
+
+Checking all prerequisites...
+Done.
+
+Running on host grad02
+
+Initial Time is Thu May 21 09:13:58 BRT 2020
+
+Directori is /home/pp12722/Programacao-Paralela/t1/versions/sixteen-threads
+
+This jobs runs on the following nodes:
+grad02
+
+JOB_ID:
+127019
+
+500   0.25344599
+1000   0.95154906
+1500   2.16165540
+2000   3.85654263
+2500   6.62424332
+3000   8.54429885
+3500  12.33137030
+4000  14.74105357
+4500  19.06200164
+5000  23.53666946
+Area of Mandlebrot set =   1.51121250 +/-   0.00302243
+Area of Mandlebrot set =   1.51020562 +/-   0.00151021
+Area of Mandlebrot set =   1.50959500 +/-   0.00100640
+Area of Mandlebrot set =   1.50928453 +/-   0.00075464
+Area of Mandlebrot set =   1.50905790 +/-   0.00060362
+Area of Mandlebrot set =   1.50903813 +/-   0.00050301
+Area of Mandlebrot set =   1.50894735 +/-   0.00043113
+Area of Mandlebrot set =   1.50881590 +/-   0.00037720
+Area of Mandlebrot set =   1.50882444 +/-   0.00033529
+Area of Mandlebrot set =   1.50875573 +/-   0.00030175
+Final Time is Thu May 21 09:15:30 BRT 2020
+
+--------------------------------------
+Running PBS epilogue.user script
+
+End of PBS epilogue.user script
+
+--------------------------------------
+Running PBS epilogue script
+
+Disabling access of user pp12722 on the batch nodes
+Doing node grad02
+
+ -- Killing all stale user  processes... done.
+ -- Cleaning-up any shmemory segments... done.
+
+Done.
+
+Resources used:
+
+ -- CPU TIME     = 00:07:52 
+
+ -- MEMORY       = 2296kb 
+
+ -- VIRTUAL MEM  = 144880kb 
+
+ -- ELAPSED TIME = 00:01:33 
+
