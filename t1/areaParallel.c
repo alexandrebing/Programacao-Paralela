@@ -1,67 +1,70 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-#include <omp.h> 
+#include <omp.h>
 
-# define MAXITER 2000
+#define MAXITER 2000
 
-struct complex{
-  double real;
-  double imag;
+struct complex
+{
+    double real;
+    double imag;
 };
 
-int main(){
-  int NPOINTS;
+int main()
+{
+    int NPOINTS;
 
+    double area, error, ztemp;
+    double start, finish;
+    struct complex z, c;
 
+    for (NPOINTS = 1000; NPOINTS <= 1500; NPOINTS += 50)
+    {
 
-for(NPOINTS=1000; NPOINTS<=1500; NPOINTS+=50) {
+        int numoutside = 0;
+        int i;
+        int j;
+        int iter;
+        start = omp_get_wtime();
 
-
-  int numoutside = 0;
-  int i;
-  int j;
-  int iter;
-  double area, error, ztemp;
-  double start, finish;
-  struct complex z, c;
-
-  start = omp_get_wtime();
-
-  #pragma omp parallel private (i,j,iter,c,z,ztemp) reduction(+:numoutside)
-  {
-
-    #pragma omp for
-          for (i=0; i<NPOINTS; i++) {
-                for (j=0; j<NPOINTS; j++) {
-
-                  c.real = -2.0+2.5(double)(i)/(double)(NPOINTS)+1.0e-7;
-                  c.imag = 1.125(double)(j)/(double)(NPOINTS)+1.0e-7;
-                  z=c;
-
-                  for (iter=0; iter<MAXITER; iter++){
-
-                        ztemp=(z.realz.real)-(z.imagz.imag)+c.real;
-                        z.imag=z.realz.imag2+c.imag; 
-                        z.real=ztemp; 
-
-                        if ((z.realz.real+z.imagz.imag)>4.0e0) {
-                          numoutside++; 
-                          break;
+    #pragma omp parallel private(i, j, iter, c, z, ztemp) reduction(+ \
+                                                                : numoutside)
+        {
+        //PARALLELIZING
+        #pragma omp for
+            for (i = 0; i < NPOINTS; i++)
+            {
+                for (j = 0; j < NPOINTS; j++)
+                {
+                    c.real = -2.0 + 2.5 * (double)(i) / (double)(NPOINTS) + 1.0e-7;
+                    c.imag = 1.125 * (double)(j) / (double)(NPOINTS) + 1.0e-7;
+                    z = c;
+                    for (iter = 0; iter < MAXITER; iter++)
+                    {
+                        ztemp = (z.real * z.real) - (z.imag * z.imag) + c.real;
+                        z.imag = z.real * z.imag * 2 + c.imag;
+                        z.real = ztemp;
+                        if ((z.real * z.real + z.imag * z.imag) > 4.0e0)
+                        {
+                            numoutside++;
+                            break;
                         }
-                  }
+                    }
                 }
-          }
+            }
         }
 
+        finish = omp_get_wtime();
 
-  finish = omp_get_wtime();
+        /*
+ *  Calculate area and error and output the results
+ */
 
+        area = 2.0 * 2.5 * 1.125 * (double)(NPOINTS * NPOINTS - numoutside) / (double)(NPOINTS * NPOINTS);
+        error = area / (double)NPOINTS;
 
-      area = 2.02.51.125(double)(NPOINTSNPOINTS-numoutside)/(double)(NPOINTS*$
-      error = area/(double)NPOINTS;
-
-      printf("Area of Mandlebrot set = %12.8f +/- %12.8f\n",area,error);
-      fprintf(stderr,"%d %12.8f\n",NPOINTS,finish-start);
-   }
- }
+        printf("Area of Mandlebrot set = %12.8f +/- %12.8f\n", area, error);
+        fprintf(stderr, "%d %12.8f\n", NPOINTS, finish - start);
+    }
+}
