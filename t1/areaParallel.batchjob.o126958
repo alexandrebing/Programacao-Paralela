@@ -1,0 +1,55 @@
+--------------------------------------
+Running PBS prologue script
+
+Checking all prerequisites...
+Done.
+
+Running on host grad01
+
+Initial Time is Wed May 20 21:48:29 BRT 2020
+
+Directori is /home/pp12722/Programacao-Paralela/t1
+
+This jobs runs on the following nodes:
+grad01
+
+JOB_ID:
+126958
+
+500   0.72632659
+1000   2.90523352
+1500   6.53634998
+2000  11.55031166
+2500  18.00974439
+3000  25.93591023
+3500  44.18052567
+4000  64.14377209
+4500  81.14519848
+=>> PBS: job killed: walltime 338 exceeded limit 300
+
+--------------------------------------
+Running PBS epilogue.user script
+
+End of PBS epilogue.user script
+
+--------------------------------------
+Running PBS epilogue script
+
+Disabling access of user pp12722 on the batch nodes
+Doing node grad01
+
+ -- Killing all stale user  processes... done.
+ -- Cleaning-up any shmemory segments... done.
+
+Done.
+
+Resources used:
+
+ -- CPU TIME     = 00:12:39 
+
+ -- MEMORY       = 2296kb 
+
+ -- VIRTUAL MEM  = 46528kb 
+
+ -- ELAPSED TIME = 00:05:39 
+

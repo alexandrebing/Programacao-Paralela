@@ -19,7 +19,7 @@ int main()
     double start, finish;
     struct complex z, c;
 
-    for (NPOINTS = 1000; NPOINTS <= 1500; NPOINTS += 50)
+    for (NPOINTS = 500; NPOINTS <= 5000; NPOINTS += 500)
     {
 
         int numoutside = 0;

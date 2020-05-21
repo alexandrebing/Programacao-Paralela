@@ -26,7 +26,7 @@ int main()
  *     Inner loop has the iteration z=z*z+c, and threshold test
  */
 
-  for (NPOINTS=1000; NPOINTS <= 1500; NPOINTS += 50)
+  for (NPOINTS=500; NPOINTS <= 5000; NPOINTS += 500)
   {
 
     int numoutside = 0;

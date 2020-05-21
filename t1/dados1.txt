@@ -1,0 +1,11 @@
+Area of Mandlebrot set =   1.51020562 +/-   0.00151021
+Area of Mandlebrot set =   1.51007653 +/-   0.00143817
+Area of Mandlebrot set =   1.51003357 +/-   0.00137276
+Area of Mandlebrot set =   1.51012004 +/-   0.00131315
+Area of Mandlebrot set =   1.50994922 +/-   0.00125829
+Area of Mandlebrot set =   1.50969240 +/-   0.00120775
+Area of Mandlebrot set =   1.50978661 +/-   0.00116137
+Area of Mandlebrot set =   1.50988272 +/-   0.00111843
+Area of Mandlebrot set =   1.50960364 +/-   0.00107829
+Area of Mandlebrot set =   1.50965101 +/-   0.00104114
+Area of Mandlebrot set =   1.50959500 +/-   0.00100640
