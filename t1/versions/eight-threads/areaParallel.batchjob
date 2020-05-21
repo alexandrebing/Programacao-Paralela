@@ -1,7 +1,7 @@
 #!/bin/bash
 #PBS -m abe
 #PBS -V
-#PBS -l nodes=1:ppn=2:cluster-Grad,walltime=00:30:00
+#PBS -l nodes=1:ppn=8:cluster-Grad,walltime=00:30:00
 #PBS -r n
 #PBS -j oe
 #PBS -d /home/pp12722/Programacao-Paralela/t1
@@ -18,5 +18,5 @@ echo
 echo JOB_ID:
 echo `echo $PBS_JOBID`
 echo ###########
-./paralelo
+../../paralelo
 echo Final Time is `date`
