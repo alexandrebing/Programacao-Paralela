@@ -1,0 +1,24 @@
+#!/bin/bash
+#PBS -m abe
+#PBS -V
+#PBS -l nodes=2:ppn=2:cluster-Grad,walltime=00:05:00
+#PBS -r n
+#PBS -j oe
+#PBS -d /home/pp12722/Programacao-Paralela/t2/simple_mandelbrot_MPI
+################
+echo Running on host `hostname`
+echo
+echo Initial Time is `date`
+echo 
+echo Directory is `pwd`
+echo
+echo This jobs runs on the following nodes:
+echo `cat $PBS_NODEFILE | uniq`
+echo
+echo JOB_ID:
+echo `echo $PBS_JOBID`
+echo ###########
+mpirun -np 4 ./simple_mandelbrot_MPI
+echo "------------------"
+mpirun -np 8 ./simple_mandelbrot_MPI
+echo Final Time is `date`
