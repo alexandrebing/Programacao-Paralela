@@ -18,7 +18,7 @@ int getNumOutside();
 int main(int argc, char *argv[])
 {
 
-    int id, p, hs;
+    int id, p, total, hs;
     char h[MPI_MAX_PROCESSOR_NAME];
 
     int numoutside = 0;
@@ -43,7 +43,7 @@ int main(int argc, char *argv[])
     {
         numoutside = getNumOutside(NPOINTS);
     }
-    MPI_Reduce(&sol, &total, 1, MPI_INT,
+    MPI_Reduce(&numoutside, &total, 1, MPI_INT,
                MPI_SUM, 0, MPI_COMM_WORLD);
     printf("Process %d on %s is done\n", id, h);
     fflush(stdout);
@@ -63,7 +63,7 @@ int main(int argc, char *argv[])
         printf("Time = %12.8f seconds\n", finish - start);
     }
 
-    return 0
+    return 0;
 }
 
 int getNumOutside(int nPoints)
