@@ -15,7 +15,7 @@ struct complex
 
 int getNumOutside();
 
-int main()
+int main(int argc, char *argv[])
 {
 
     int id, p, hs;
