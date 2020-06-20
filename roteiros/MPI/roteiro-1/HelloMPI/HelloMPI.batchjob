@@ -4,7 +4,7 @@
 #PBS -l nodes=2:ppn=2:cluster-Grad,walltime=00:05:00
 #PBS -r n
 #PBS -j oe
-#PBS -d /home/pp12722/git/Programacao-Paralela/roteiros/MPI/roteiro 1/HelloMPI
+#PBS -d /home/pp12722/git/Programacao-Paralela/roteiros/MPI/roteiro-1/HelloMPI
 ################
 echo Running on host `hostname`
 echo
