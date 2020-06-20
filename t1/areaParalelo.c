@@ -30,8 +30,8 @@ int main()
 
 #pragma omp parallel private(i, j, iter, c, z, ztemp)
         {
-//PARALLELIZING EXTERNAL LOOP
 int numoutsideAux = 0
+//PARALLELIZING EXTERNAL LOOP
 #pragma omp for
             for (i = 0; i < NPOINTS; i++)
             {
