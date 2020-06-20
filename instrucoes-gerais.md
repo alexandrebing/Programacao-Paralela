@@ -51,7 +51,7 @@
 	echo
 	echo Initial Time is `date`
 	echo 
-	echo Directori is `pwd`
+	echo Directory is `pwd`
 	echo
 	echo This jobs runs on the following nodes:
 	echo `cat $PBS_NODEFILE | uniq`
