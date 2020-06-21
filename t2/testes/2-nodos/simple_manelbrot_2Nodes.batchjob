@@ -4,7 +4,7 @@
 #PBS -l nodes=2:ppn=1:cluster-Grad,walltime=00:30:00
 #PBS -r n
 #PBS -j oe
-#PBS -d /home/pp12722/Programacao-Paralela/t2/testes/2-nodos/
+#PBS -d /home/pp12722/Programacao-Paralela/t2/testes/2-nodos
 ################
 echo Running on host `hostname`
 echo

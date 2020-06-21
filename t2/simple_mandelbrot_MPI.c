@@ -35,7 +35,7 @@ int main(int argc, char *argv[])
 
     for (NPOINTS = 500; NPOINTS <= 5000; NPOINTS += 500)
     {
-
+        int requisitions = 0;
         int total = 0;
         int numoutside = 0;
         start = MPI_Wtime();
@@ -53,6 +53,7 @@ int main(int argc, char *argv[])
                         ztemp = (z.real * z.real) - (z.imag * z.imag) + c.real;
                         z.imag = z.real * z.imag * 2 + c.imag;
                         z.real = ztemp;
+                        requisitions += 1;
                         if ((z.real * z.real + z.imag * z.imag) > 4.0e0)
                         {
                             numoutside++;
@@ -71,7 +72,7 @@ int main(int argc, char *argv[])
         /*
    *  Calculate area and error and output the results
    */
-
+        printf("Processo %d finalizado com %d requisições.", id, requisitions);
         if (id == 0)
         {
             area = 2.0 * 2.5 * 1.125 * (double)(NPOINTS * NPOINTS - total) / (double)(NPOINTS * NPOINTS);
