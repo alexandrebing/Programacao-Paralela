@@ -35,7 +35,7 @@ int main(int argc, char *argv[])
 
     for (NPOINTS = 500; NPOINTS <= 5000; NPOINTS += 500)
     {
-        int requisitions = 0;
+        long int requisitions = 0;
         int total = 0;
         int numoutside = 0;
         start = MPI_Wtime();
@@ -72,7 +72,7 @@ int main(int argc, char *argv[])
         /*
    *  Calculate area and error and output the results
    */
-        printf("Processo %d finalizado com %d requisições de um total aproximado de %d.\n", id, requisitions, (NPOINTS * NPOINTS * MAXITER));
+        printf("Processo %d finalizado com %d requisições.\n", id, requisitions);
         requisitions = 0;
         if (id == 0)
         {
@@ -80,6 +80,8 @@ int main(int argc, char *argv[])
             error = area / (double)NPOINTS;
 
             printf("-----------------------------------------\n");
+            printf("Number of precessess: %d\n", p);
+            printf("Number of NPOINTS: %d\n", NPOINTS);
             printf("Area of Mandlebrot set = %12.8f +/- %12.8f\n", area, error);
             printf("Time = %12.8f seconds\n", finish - start);
             printf("-----------------------------------------\n");
