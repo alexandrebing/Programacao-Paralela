@@ -5,7 +5,7 @@ Done.
 
 Running on host grad01
 
-Initial Time is Sat Jun 20 23:58:13 BRT 2020
+Initial Time is Sun Jun 21 00:29:05 BRT 2020
 
 Directory is /home/pp12722/Programacao-Paralela/t2
 
@@ -13,29 +13,29 @@ This jobs runs on the following nodes:
 grad01 grad02
 
 JOB_ID:
-128018
+128020
 
 Area of Mandlebrot set =   1.51121250 +/-   0.00302243
-Time =   0.60213399 seconds
+Time =   0.39070702 seconds
 Area of Mandlebrot set =   1.51020562 +/-   0.00151021
-Time =   2.83822298 seconds
+Time =   1.55694389 seconds
 Area of Mandlebrot set =   1.50959500 +/-   0.00100640
-Time =   7.85507798 seconds
+Time =   3.49800611 seconds
 Area of Mandlebrot set =   1.50928453 +/-   0.00075464
-Time =  16.70165014 seconds
+Time =   6.17852807 seconds
 Area of Mandlebrot set =   1.50905790 +/-   0.00060362
-Time =  30.53065801 seconds
+Time =   9.62905598 seconds
 Area of Mandlebrot set =   1.50903813 +/-   0.00050301
-Time =  50.43610811 seconds
+Time =  13.88116503 seconds
 Area of Mandlebrot set =   1.50894735 +/-   0.00043113
-Time =  77.53605413 seconds
+Time =  18.84008789 seconds
 Area of Mandlebrot set =   1.50881590 +/-   0.00037720
-Time = 112.92596412 seconds
+Time =  24.78502297 seconds
 Area of Mandlebrot set =   1.50882444 +/-   0.00033529
-Time = 157.73595810 seconds
+Time =  31.19320607 seconds
 Area of Mandlebrot set =   1.50875573 +/-   0.00030175
-Time = 213.05663204 seconds
-Final Time is Sun Jun 21 00:01:46 BRT 2020
+Time =  53.82346892 seconds
+Final Time is Sun Jun 21 00:31:49 BRT 2020
 
 --------------------------------------
 Running PBS epilogue.user script
@@ -47,16 +47,23 @@ Running PBS epilogue script
 
 Disabling access of user pp12722 on the batch nodes
 Doing node grad01
+
+ -- Killing all stale user  processes... done.
+ -- Cleaning-up any shmemory segments... done.
 Doing node grad02
+
+ -- Killing all stale user  processes... done.
+ -- Cleaning-up any shmemory segments... done.
 
 Done.
 
 Resources used:
 
- -- CPU TIME     = 00:10:47 
+ -- CPU TIME     = 00:08:44 
 
- -- MEMORY       = 23976kb 
+ -- MEMORY       = 21816kb 
 
- -- VIRTUAL MEM  = 752116kb 
+ -- VIRTUAL MEM  = 697744kb 
 
- -- ELAPSED TIME = 00:03:34 
+ -- ELAPSED TIME = 00:02:45 
+
