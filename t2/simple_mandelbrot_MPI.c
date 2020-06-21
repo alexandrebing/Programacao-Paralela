@@ -26,17 +26,18 @@ int main(int argc, char *argv[])
    *
    *     Inner loop has the iteration z=z*z+c, and threshold test
    */
-
-    for (NPOINTS = 500; NPOINTS <= 2000; NPOINTS += 500)
-    {
-        int i, id, p, total, sol, hs;
+        int i, id, p, total, hs;
         char h[MPI_MAX_PROCESSOR_NAME];
         start = MPI_Wtime();
         MPI_Init(&argc, &argv);
         MPI_Get_processor_name(h, &hs);
         MPI_Comm_rank(MPI_COMM_WORLD, &id);
         MPI_Comm_size(MPI_COMM_WORLD, &p);
-        int sum = 0;
+
+    for (NPOINTS = 500; NPOINTS <= 2000; NPOINTS += 500)
+    {
+        
+        int total = 0;
         int numoutside = 0;
         for (i = 0; i < NPOINTS; i++)
         {
@@ -63,7 +64,7 @@ int main(int argc, char *argv[])
                 fflush(stdout);
             }
         }
-        MPI_Reduce(&numoutside, &sum, 1, MPI_INT,
+        MPI_Reduce(&numoutside, &total, 1, MPI_INT,
              MPI_SUM, 0, MPI_COMM_WORLD);
         finish = MPI_Wtime();
 
@@ -76,8 +77,8 @@ int main(int argc, char *argv[])
 
         printf("Area of Mandlebrot set = %12.8f +/- %12.8f\n", area, error);
         printf("Time = %12.8f seconds\n", finish - start);
-        MPI_Finalize();
     }
+     MPI_Finalize();
 
     return 0;
 }
