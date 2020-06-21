@@ -72,7 +72,7 @@ int main(int argc, char *argv[])
         /*
    *  Calculate area and error and output the results
    */
-        printf("Processo %d finalizado com %d requisições.\n", id, requisitions);
+        printf("Processo %d finalizado com %ld requisições.\n", id, requisitions);
         requisitions = 0;
         if (id == 0)
         {
