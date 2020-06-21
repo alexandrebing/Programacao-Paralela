@@ -72,14 +72,17 @@ int main(int argc, char *argv[])
         /*
    *  Calculate area and error and output the results
    */
-        printf("Processo %d finalizado com %d requisições.", id, requisitions);
+        printf("Processo %d finalizado com %d requisições de um total aproximado de %d.\n", id, requisitions, (NPOINTS * NPOINTS * MAXITER));
+        requisitions = 0;
         if (id == 0)
         {
             area = 2.0 * 2.5 * 1.125 * (double)(NPOINTS * NPOINTS - total) / (double)(NPOINTS * NPOINTS);
             error = area / (double)NPOINTS;
 
+            printf("-----------------------------------------\n");
             printf("Area of Mandlebrot set = %12.8f +/- %12.8f\n", area, error);
             printf("Time = %12.8f seconds\n", finish - start);
+            printf("-----------------------------------------\n");
         }
     }
     MPI_Finalize();
