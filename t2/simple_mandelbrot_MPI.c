@@ -30,9 +30,9 @@ int main(int argc, char *argv[])
 
     MPI_Init(&argc, &argv);
 
-    start = MPI_Wtime();
     for (NPOINTS = 500; NPOINTS < 2000; NPOINTS += 500)
     {
+        start = MPI_Wtime();
         for (i = 0; i < NPOINTS; i++)
         {
             for (j = 0; j < NPOINTS; j++)
@@ -53,19 +53,18 @@ int main(int argc, char *argv[])
                 }
             }
         }
-    }
+        finish = MPI_Wtime();
 
-    finish = MPI_Wtime();
-
-    /*
+        /*
    *  Calculate area and error and output the results
    */
 
-    area = 2.0 * 2.5 * 1.125 * (double)(NPOINTS * NPOINTS - numoutside) / (double)(NPOINTS * NPOINTS);
-    error = area / (double)NPOINTS;
+        area = 2.0 * 2.5 * 1.125 * (double)(NPOINTS * NPOINTS - numoutside) / (double)(NPOINTS * NPOINTS);
+        error = area / (double)NPOINTS;
 
-    printf("Area of Mandlebrot set = %12.8f +/- %12.8f\n", area, error);
-    printf("Time = %12.8f seconds\n", finish - start);
+        printf("Area of Mandlebrot set = %12.8f +/- %12.8f\n", area, error);
+        printf("Time = %12.8f seconds\n", finish - start);
+    }
 
     MPI_Finalize();
     return 0;
