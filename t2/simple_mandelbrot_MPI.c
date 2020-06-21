@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 {
 
     int NPOINTS = 500;
-    int i, j, iter, numoutside = 0;
+    int i, j, iter;
     double area, error, ztemp;
     double start, finish;
     struct complex z, c;
@@ -30,9 +30,10 @@ int main(int argc, char *argv[])
 
     MPI_Init(&argc, &argv);
 
-    for (NPOINTS = 500; NPOINTS < 2000; NPOINTS += 500)
+    for (NPOINTS = 500; NPOINTS <= 2000; NPOINTS += 500)
     {
         start = MPI_Wtime();
+        int numoutside = 0;
         for (i = 0; i < NPOINTS; i++)
         {
             for (j = 0; j < NPOINTS; j++)
