@@ -4,7 +4,7 @@
 #PBS -l nodes=2:ppn=2:cluster-Grad,walltime=00:05:00
 #PBS -r n
 #PBS -j oe
-#PBS -d /home/pp12722/Programacao-Paralela/t2/simple_mandelbrot_MPI
+#PBS -d /home/pp12722/Programacao-Paralela/t2
 ################
 echo Running on host `hostname`
 echo
