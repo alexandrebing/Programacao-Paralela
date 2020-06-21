@@ -14,7 +14,8 @@ struct complex
 
 int main(int argc, char *argv[])
 {
-    int i, id, p, hs;
+    int id, p, hs;
+    char h[MPI_MAX_PROCESSOR_NAME];
     int i, j, iter, numoutside = 0;
     double area, error, ztemp;
     double start, finish;
