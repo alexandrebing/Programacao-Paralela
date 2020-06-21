@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
 
     MPI_Init(&argc, &argv);
 
-    for (NPOINTS = 500; NPOINTS <= 2000; NPOINTS += 500)
+    for (NPOINTS = 500; NPOINTS <= 5000; NPOINTS += 500)
     {
         start = MPI_Wtime();
         int numoutside = 0;

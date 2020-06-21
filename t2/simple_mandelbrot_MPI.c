@@ -34,7 +34,7 @@ int main(int argc, char *argv[])
     MPI_Comm_rank(MPI_COMM_WORLD, &id);
     MPI_Comm_size(MPI_COMM_WORLD, &p);
 
-    for (NPOINTS = 500; NPOINTS <= 2000; NPOINTS += 500)
+    for (NPOINTS = 500; NPOINTS <= 5000; NPOINTS += 500)
     {
 
         int total = 0;

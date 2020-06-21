@@ -18,5 +18,5 @@ echo
 echo JOB_ID:
 echo `echo $PBS_JOBID`
 echo ###########
-mpirun -np 1 ./simple_Sequencial
+mpirun -np 1 ./mandelbrot_Sequencial
 echo Final Time is `date`
