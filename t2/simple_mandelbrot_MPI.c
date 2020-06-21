@@ -30,9 +30,9 @@ int main(int argc, char *argv[])
    */
 
     MPI_Init(&argc, &argv);
-    MPI_Get_processor_name(h, &hs);
-    MPI_Comm_rank(MPI_COMM_WORLD, &id);
-    MPI_Comm_size(MPI_COMM_WORLD, &p);
+    // MPI_Get_processor_name(h, &hs);
+    // MPI_Comm_rank(MPI_COMM_WORLD, &id);
+    // MPI_Comm_size(MPI_COMM_WORLD, &p);
     start = MPI_Wtime();
 
     for (NPOINTS = 500; NPOINTS <= 5000; NPOINTS += 500)
