@@ -19,6 +19,4 @@ echo JOB_ID:
 echo `echo $PBS_JOBID`
 echo ###########
 mpirun -np 4 ./simple_mandelbrot_MPI
-echo "------------------"
-mpirun -np 8 ./simple_mandelbrot_MPI
 echo Final Time is `date`
