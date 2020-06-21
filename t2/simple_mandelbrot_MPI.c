@@ -28,7 +28,6 @@ int main(int argc, char *argv[])
    */
     int id, p, total, hs;
     char h[MPI_MAX_PROCESSOR_NAME];
-    start = MPI_Wtime();
     MPI_Init(&argc, &argv);
     MPI_Get_processor_name(h, &hs);
     MPI_Comm_rank(MPI_COMM_WORLD, &id);
@@ -39,6 +38,7 @@ int main(int argc, char *argv[])
 
         int total = 0;
         int numoutside = 0;
+        start = MPI_Wtime();
         for (i = 0; i < NPOINTS; i++)
         {
             if (i % p == id)
