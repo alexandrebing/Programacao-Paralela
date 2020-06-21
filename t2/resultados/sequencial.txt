@@ -7,3 +7,29 @@ Time =  35.38914108 seconds
 Area of Mandlebrot set =   1.50928453 +/-   0.00075464
 Time =  35.78846884 seconds
 
+Area of Mandlebrot set =   1.51121250 +/-   0.00302243
+Time =   0.43858099 seconds
+Area of Mandlebrot set =   1.51020562 +/-   0.00151021
+Time =   2.02457786 seconds
+Area of Mandlebrot set =   1.50959500 +/-   0.00100640
+Time =   5.48857594 seconds
+Area of Mandlebrot set =   1.50928453 +/-   0.00075464
+Time =  11.63522291 seconds
+
+Area of Mandlebrot set =   1.51121250 +/-   0.00302243
+Time =   1.65387607 seconds
+Area of Mandlebrot set =   1.51020562 +/-   0.00151021
+Time =   3.91786504 seconds
+Area of Mandlebrot set =   1.50959500 +/-   0.00100640
+Time =   9.04296303 seconds
+Area of Mandlebrot set =   1.50928453 +/-   0.00075464
+Time =  18.11690497 seconds
+
+Area of Mandlebrot set =   5.62500000 +/-   0.01125000
+Time =   0.40729594 seconds
+Area of Mandlebrot set =   5.62500000 +/-   0.01125000
+Time =   0.42131186 seconds
+Area of Mandlebrot set =   1.51121250 +/-   0.00302243
+Time =   0.42980289 seconds
+Area of Mandlebrot set =   5.62500000 +/-   0.01125000
+Time =   0.42470217 seconds
