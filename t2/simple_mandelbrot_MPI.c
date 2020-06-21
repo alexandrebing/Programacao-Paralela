@@ -32,12 +32,11 @@ int main(int argc, char *argv[])
         int i, id, p, total, sol, hs;
         char h[MPI_MAX_PROCESSOR_NAME];
         start = MPI_Wtime();
-        int id = NPOINTS;
         MPI_Init(&argc, &argv);
         MPI_Get_processor_name(h, &hs);
         MPI_Comm_rank(MPI_COMM_WORLD, &id);
         MPI_Comm_size(MPI_COMM_WORLD, &p);
-        int sum = 0
+        int sum = 0;
         int numoutside = 0;
         for (i = 0; i < NPOINTS; i++)
         {
