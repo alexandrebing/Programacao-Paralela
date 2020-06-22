@@ -1,0 +1,1283 @@
+--------------------------------------
+Running PBS prologue script
+
+Checking all prerequisites...
+Done.
+
+Running on host grad03
+
+Initial Time is Sun Jun 21 20:59:00 EDT 2020
+
+Directory is /home/pp12722/Programacao-Paralela/t2/testes/3-nodos
+
+This jobs runs on the following nodes:
+grad03 grad05 grad04
+
+JOB_ID:
+128178
+
+Processo 0 finalizado com 45313417 requisições.
+Processo 1 finalizado com 45226106 requisições.
+Processo 2 finalizado com 45338651 requisições.
+-----------------------------------------
+Number of precessess: 3
+Number of NPOINTS: 500
+Area of Mandlebrot set =   1.51121250 +/-   0.00302243
+Time =   0.51509309 seconds
+-----------------------------------------
+Processo 0 finalizado com 181038800 requisições.
+-----------------------------------------
+Processo 1 finalizado com 181133916 requisições.
+Processo 2 finalizado com 180953226 requisições.
+Number of precessess: 3
+Number of NPOINTS: 1000
+Area of Mandlebrot set =   1.51020562 +/-   0.00151021
+Time =   2.05689597 seconds
+-----------------------------------------
+Processo 2 finalizado com 407234667 requisições.
+Processo 1 finalizado com 407293638 requisições.
+Processo 0 finalizado com 406914578 requisições.
+-----------------------------------------
+Number of precessess: 3
+Number of NPOINTS: 1500
+Area of Mandlebrot set =   1.50959500 +/-   0.00100640
+Time =   4.62322998 seconds
+-----------------------------------------
+Processo 1 finalizado com 723579288 requisições.
+Processo 2 finalizado com 723722744 requisições.
+Processo 0 finalizado com 723751655 requisições.
+-----------------------------------------
+Number of precessess: 3
+Number of NPOINTS: 2000
+Area of Mandlebrot set =   1.50928453 +/-   0.00075464
+Time =   8.22297287 seconds
+-----------------------------------------
+Processo 1 finalizado com 1130472944 requisições.
+Processo 2 finalizado com 1130488369 requisições.
+Processo 0 finalizado com 1130790456 requisições.
+-----------------------------------------
+Number of precessess: 3
+Number of NPOINTS: 2500
+Area of Mandlebrot set =   1.50905790 +/-   0.00060362
+Time =  12.84428096 seconds
+-----------------------------------------
+Processo 1 finalizado com 1628042394 requisições.
+Processo 2 finalizado com 1627956081 requisições.
+Processo 0 finalizado com 1627974515 requisições.
+-----------------------------------------
+Number of precessess: 3
+Number of NPOINTS: 3000
+Area of Mandlebrot set =   1.50903813 +/-   0.00050301
+Time =  18.49145603 seconds
+-----------------------------------------
+Processo 1 finalizado com 2215809793 requisições.
+Processo 2 finalizado com 2215615803 requisições.
+Processo 0 finalizado com 2215864124 requisições.
+-----------------------------------------
+Number of precessess: 3
+Number of NPOINTS: 3500
+Area of Mandlebrot set =   1.50894735 +/-   0.00043113
+Time =  25.16987896 seconds
+-----------------------------------------
+Processo 1 finalizado com 2894031965 requisições.
+Processo 2 finalizado com 2893779110 requisições.
+Processo 0 finalizado com 2893745625 requisições.
+-----------------------------------------
+Number of precessess: 3
+Number of NPOINTS: 4000
+Area of Mandlebrot set =   1.50881590 +/-   0.00037720
+Time =  32.88504791 seconds
+-----------------------------------------
+Processo 1 finalizado com 3662584206 requisições.
+Processo 2 finalizado com 3662752327 requisições.
+Processo 0 finalizado com 3662254456 requisições.
+-----------------------------------------
+Number of precessess: 3
+Number of NPOINTS: 4500
+Area of Mandlebrot set =   1.50882444 +/-   0.00033529
+Time =  41.61472201 seconds
+-----------------------------------------
+Processo 1 finalizado com 4521257607 requisições.
+Processo 2 finalizado com 4521418223 requisições.
+Processo 0 finalizado com 4521652761 requisições.
+-----------------------------------------
+Number of precessess: 3
+Number of NPOINTS: 5000
+Area of Mandlebrot set =   1.50875573 +/-   0.00030175
+Time =  51.42787790 seconds
+-----------------------------------------
+------------------\n\n
+Processo 1 finalizado com 22642570 requisições.
+Processo 5 finalizado com 22666672 requisições.
+Processo 3 finalizado com 22649455 requisições.
+Processo 2 finalizado com 22671979 requisições.
+Processo 0 finalizado com 22663962 requisições.
+Processo 4 finalizado com 22583536 requisições.
+-----------------------------------------
+Number of precessess: 6
+Number of NPOINTS: 500
+Area of Mandlebrot set =   1.51121250 +/-   0.00302243
+Time =   0.52776599 seconds
+-----------------------------------------
+Processo 4 finalizado com 90564976 requisições.
+Processo 3 finalizado com 90515761 requisições.
+Processo 5 finalizado com 90603417 requisições.
+Processo 2 finalizado com 90349809 requisições.
+Processo 0 finalizado com 90523039 requisições.
+Processo 1 finalizado com 90568940 requisições.
+-----------------------------------------
+Number of precessess: 6
+Number of NPOINTS: 1000
+Area of Mandlebrot set =   1.51020562 +/-   0.00151021
+Time =   2.05738401 seconds
+-----------------------------------------
+Processo 4 finalizado com 203615032 requisições.
+Processo 1 finalizado com 203678606 requisições.
+Processo 3 finalizado com 203514373 requisições.
+Processo 2 finalizado com 203628333 requisições.
+Processo 0 finalizado com 203400205 requisições.
+-----------------------------------------
+Number of precessess: 6
+Processo 5 finalizado com 203606334 requisições.
+Number of NPOINTS: 1500
+Area of Mandlebrot set =   1.50959500 +/-   0.00100640
+Time =   4.62724805 seconds
+-----------------------------------------
+Processo 4 finalizado com 361669515 requisições.
+Processo 1 finalizado com 361909773 requisições.
+Processo 3 finalizado com 361917153 requisições.
+Processo 5 finalizado com 361725080 requisições.
+Processo 2 finalizado com 361997664 requisições.
+Processo 0 finalizado com 361834502 requisições.
+-----------------------------------------
+Number of precessess: 6
+Number of NPOINTS: 2000
+Area of Mandlebrot set =   1.50928453 +/-   0.00075464
+Time =   8.22620082 seconds
+-----------------------------------------
+Processo 4 finalizado com 565071592 requisições.
+Processo 1 finalizado com 565401352 requisições.
+Processo 3 finalizado com 565189469 requisições.
+Processo 2 finalizado com 565071457 requisições.
+Processo 5 finalizado com 565416912 requisições.
+Processo 0 finalizado com 565600987 requisições.
+-----------------------------------------
+Number of precessess: 6
+Number of NPOINTS: 2500
+Area of Mandlebrot set =   1.50905790 +/-   0.00060362
+Time =  12.85986090 seconds
+-----------------------------------------
+Processo 4 finalizado com 814082922 requisições.
+Processo 1 finalizado com 813959472 requisições.
+Processo 5 finalizado com 813736282 requisições.
+Processo 2 finalizado com 814219799 requisições.
+Processo 3 finalizado com 814360984 requisições.
+Processo 0 finalizado com 813613531 requisições.
+-----------------------------------------
+Number of precessess: 6
+Number of NPOINTS: 3000
+Area of Mandlebrot set =   1.50903813 +/-   0.00050301
+Time =  18.58787799 seconds
+-----------------------------------------
+Processo 4 finalizado com 1107753788 requisições.
+Processo 1 finalizado com 1108056005 requisições.
+Processo 2 finalizado com 1107692726 requisições.
+Processo 5 finalizado com 1107923077 requisições.
+Processo 3 finalizado com 1107880223 requisições.
+Processo 0 finalizado com 1107983901 requisições.
+-----------------------------------------
+Number of precessess: 6
+Number of NPOINTS: 3500
+Area of Mandlebrot set =   1.50894735 +/-   0.00043113
+Time =  25.22236586 seconds
+-----------------------------------------
+Processo 4 finalizado com 1447001102 requisições.
+Processo 1 finalizado com 1447030863 requisições.
+Processo 5 finalizado com 1447133268 requisições.
+Processo 2 finalizado com 1446645842 requisições.
+Processo 3 finalizado com 1446721853 requisições.
+Processo 0 finalizado com 1447023772 requisições.
+-----------------------------------------
+Number of precessess: 6
+Number of NPOINTS: 4000
+Area of Mandlebrot set =   1.50881590 +/-   0.00037720
+Time =  32.97012019 seconds
+-----------------------------------------
+Processo 4 finalizado com 1831372534 requisições.
+Processo 1 finalizado com 1831211672 requisições.
+Processo 2 finalizado com 1831387848 requisições.
+Processo 5 finalizado com 1831364479 requisições.
+Processo 3 finalizado com 1831297703 requisições.
+Processo 0 finalizado com 1830956753 requisições.
+-----------------------------------------
+Number of precessess: 6
+Number of NPOINTS: 4500
+Area of Mandlebrot set =   1.50882444 +/-   0.00033529
+Time =  41.92068601 seconds
+-----------------------------------------
+Processo 4 finalizado com 2260503792 requisições.
+Processo 1 finalizado com 2260753815 requisições.
+Processo 2 finalizado com 2260464724 requisições.
+Processo 5 finalizado com 2260953499 requisições.
+Processo 3 finalizado com 2260671954 requisições.
+Processo 0 finalizado com 2260980807 requisições.
+-----------------------------------------
+Number of precessess: 6
+Number of NPOINTS: 5000
+Area of Mandlebrot set =   1.50875573 +/-   0.00030175
+Time =  51.52576613 seconds
+-----------------------------------------
+------------------\n\n
+Processo 5 finalizado com 11386549 requisições.
+Processo 1 finalizado com 11321435 requisições.
+Processo 7 finalizado com 11321135 requisições.
+Processo 3 finalizado com 11345336 requisições.
+Processo 11 finalizado com 11280123 requisições.
+Processo 9 finalizado com 11304119 requisições.
+Processo 10 finalizado com 11217663 requisições.
+Processo 6 finalizado com 11379318 requisições.
+Processo 2 finalizado com 11362617 requisições.
+Processo 8 finalizado com 11309362 requisições.
+Processo 4 finalizado com 11365873 requisições.
+Processo 0 finalizado com 11284644 requisições.
+-----------------------------------------
+Number of precessess: 12
+Number of NPOINTS: 500
+Area of Mandlebrot set =   1.51121250 +/-   0.00302243
+Time =   0.60745001 seconds
+-----------------------------------------
+Processo 5 finalizado com 45326616 requisições.
+Processo 7 finalizado com 45285822 requisições.
+Processo 6 finalizado com 45238275 requisições.
+Processo 3 finalizado com 45299744 requisições.
+Processo 1 finalizado com 45283118 requisições.
+Processo 9 finalizado com 45216017 requisições.
+Processo 11 finalizado com 45276801 requisições.
+Processo 2 finalizado com 45231380 requisições.
+Processo 4 finalizado com 45284136 requisições.
+Processo 10 finalizado com 45280840 requisições.
+Processo 0 finalizado com 45284764 requisições.
+-----------------------------------------
+Number of precessess: 12
+Processo 8 finalizado com 45118429 requisições.
+Number of NPOINTS: 1000
+Area of Mandlebrot set =   1.51020562 +/-   0.00151021
+Time =   2.10784507 seconds
+-----------------------------------------
+Processo 7 finalizado com 101879546 requisições.
+Processo 1 finalizado com 101799060 requisições.
+Processo 5 finalizado com 101857276 requisições.
+Processo 6 finalizado com 101704309 requisições.
+Processo 9 finalizado com 101680550 requisições.
+Processo 3 finalizado com 101833823 requisições.
+Processo 4 finalizado com 101910006 requisições.
+Processo 2 finalizado com 101840006 requisições.
+Processo 10 finalizado com 101705026 requisições.
+Processo 11 finalizado com 101749058 requisições.
+Processo 0 finalizado com 101695896 requisições.
+Processo 8 finalizado com 101788327 requisições.
+-----------------------------------------
+Number of precessess: 12
+Number of NPOINTS: 1500
+Area of Mandlebrot set =   1.50959500 +/-   0.00100640
+Time =   4.62715912 seconds
+-----------------------------------------
+Processo 7 finalizado com 180938537 requisições.
+Processo 1 finalizado com 180971236 requisições.
+Processo 5 finalizado com 180775007 requisições.
+Processo 6 finalizado com 180932963 requisições.
+Processo 4 finalizado com 180595886 requisições.
+Processo 11 finalizado com 180950073 requisições.
+Processo 3 finalizado com 180777689 requisições.
+Processo 10 finalizado com 181073629 requisições.
+Processo 9 finalizado com 181139464 requisições.
+Processo 2 finalizado com 181000704 requisições.
+Processo 8 finalizado com 180996960 requisições.
+Processo 0 finalizado com 180901539 requisições.
+-----------------------------------------
+Number of precessess: 12
+Number of NPOINTS: 2000
+Area of Mandlebrot set =   1.50928453 +/-   0.00075464
+Time =   8.22252011 seconds
+-----------------------------------------
+Processo 7 finalizado com 283055744 requisições.
+Processo 1 finalizado com 282345608 requisições.
+Processo 5 finalizado com 282677179 requisições.
+Processo 3 finalizado com 282341170 requisições.
+Processo 6 finalizado com 282971706 requisições.
+Processo 4 finalizado com 282435571 requisições.
+Processo 2 finalizado com 282219731 requisições.
+Processo 11 finalizado com 282739733 requisições.
+Processo 10 finalizado com 282636021 requisições.
+Processo 9 finalizado com 282848299 requisições.
+Processo 8 finalizado com 282851726 requisições.
+Processo 0 finalizado com 282629281 requisições.
+-----------------------------------------
+Number of precessess: 12
+Number of NPOINTS: 2500
+Area of Mandlebrot set =   1.50905790 +/-   0.00060362
+Time =  12.83355498 seconds
+-----------------------------------------
+Processo 7 finalizado com 406980306 requisições.
+Processo 1 finalizado com 406979166 requisições.
+Processo 5 finalizado com 406789227 requisições.
+Processo 6 finalizado com 406919371 requisições.
+Processo 3 finalizado com 407169453 requisições.
+Processo 4 finalizado com 407077868 requisições.
+Processo 11 finalizado com 406947055 requisições.
+Processo 2 finalizado com 407167691 requisições.
+Processo 10 finalizado com 407005054 requisições.
+Processo 9 finalizado com 407191531 requisições.
+Processo 8 finalizado com 407052108 requisições.
+Processo 0 finalizado com 406694160 requisições.
+-----------------------------------------
+Number of precessess: 12
+Number of NPOINTS: 3000
+Area of Mandlebrot set =   1.50903813 +/-   0.00050301
+Time =  18.47008395 seconds
+-----------------------------------------
+Processo 1 finalizado com 553963458 requisições.
+Processo 7 finalizado com 554092547 requisições.
+Processo 5 finalizado com 553948850 requisições.
+Processo 11 finalizado com 553974227 requisições.
+Processo 10 finalizado com 553922645 requisições.
+Processo 6 finalizado com 553976854 requisições.
+Processo 3 finalizado com 554025480 requisições.
+Processo 2 finalizado com 553750861 requisições.
+Processo 4 finalizado com 553831143 requisições.
+Processo 9 finalizado com 553854743 requisições.
+Processo 8 finalizado com 553941865 requisições.
+Processo 0 finalizado com 554007047 requisições.
+-----------------------------------------
+Number of precessess: 12
+Number of NPOINTS: 3500
+Area of Mandlebrot set =   1.50894735 +/-   0.00043113
+Time =  25.19370985 seconds
+-----------------------------------------
+Processo 1 finalizado com 723443655 requisições.
+Processo 7 finalizado com 723587208 requisições.
+Processo 5 finalizado com 723839652 requisições.
+Processo 11 finalizado com 723293616 requisições.
+Processo 10 finalizado com 723161406 requisições.
+Processo 3 finalizado com 723635902 requisições.
+Processo 6 finalizado com 723636986 requisições.
+Processo 2 finalizado com 723550052 requisições.
+Processo 9 finalizado com 723085951 requisições.
+Processo 4 finalizado com 723839696 requisições.
+Processo 8 finalizado com 723095790 requisições.
+Processo 0 finalizado com 723386786 requisições.
+-----------------------------------------
+Number of precessess: 12
+Number of NPOINTS: 4000
+Area of Mandlebrot set =   1.50881590 +/-   0.00037720
+Time =  32.88232207 seconds
+-----------------------------------------
+Processo 1 finalizado com 915694291 requisições.
+Processo 7 finalizado com 915517381 requisições.
+Processo 5 finalizado com 915452759 requisições.
+Processo 11 finalizado com 915911720 requisições.
+Processo 10 finalizado com 916006135 requisições.
+Processo 6 finalizado com 915276457 requisições.
+Processo 4 finalizado com 915366399 requisições.
+Processo 3 finalizado com 915449697 requisições.
+Processo 2 finalizado com 915598983 requisições.
+Processo 9 finalizado com 915848006 requisições.
+Processo 8 finalizado com 915788865 requisições.
+Processo 0 finalizado com 915680296 requisições.
+-----------------------------------------
+Number of precessess: 12
+Number of NPOINTS: 4500
+Area of Mandlebrot set =   1.50882444 +/-   0.00033529
+Time =  41.60378909 seconds
+-----------------------------------------
+Processo 1 finalizado com 1130630825 requisições.
+Processo 7 finalizado com 1130122990 requisições.
+Processo 5 finalizado com 1130011774 requisições.
+Processo 11 finalizado com 1130941725 requisições.
+Processo 10 finalizado com 1130602533 requisições.
+Processo 6 finalizado com 1130103930 requisições.
+Processo 4 finalizado com 1129901259 requisições.
+Processo 9 finalizado com 1130259479 requisições.
+Processo 3 finalizado com 1130412475 requisições.
+Processo 2 finalizado com 1130577577 requisições.
+Processo 8 finalizado com 1129887147 requisições.
+Processo 0 finalizado com 1130876877 requisições.
+-----------------------------------------
+Number of precessess: 12
+Number of NPOINTS: 5000
+Area of Mandlebrot set =   1.50875573 +/-   0.00030175
+Time =  51.27253914 seconds
+-----------------------------------------
+------------------\n\n
+Processo 13 finalizado com 5632889 requisições.
+Processo 11 finalizado com 5598565 requisições.
+Processo 1 finalizado com 5688546 requisições.
+Processo 7 finalizado com 5682492 requisições.
+Processo 5 finalizado com 5653675 requisições.
+Processo 10 finalizado com 5566493 requisições.
+Processo 17 finalizado com 5732874 requisições.
+Processo 15 finalizado com 5678796 requisições.
+Processo 9 finalizado com 5672919 requisições.
+Processo 19 finalizado com 5638643 requisições.
+Processo 3 finalizado com 5666540 requisições.
+Processo 23 finalizado com 5681558 requisições.
+Processo 6 finalizado com 5657202 requisições.
+Processo 2 finalizado com 5695486 requisições.
+Processo 14 finalizado com 5667131 requisições.
+Processo 12 finalizado com 5598240 requisições.
+Processo 21 finalizado com 5631200 requisições.
+Processo 22 finalizado com 5651170 requisições.
+Processo 18 finalizado com 5722116 requisições.
+Processo 4 finalizado com 5660898 requisições.
+Processo 20 finalizado com 5623047 requisições.
+Processo 8 finalizado com 5686315 requisições.
+Processo 16 finalizado com 5704975 requisições.
+Processo 0 finalizado com 5686404 requisições.
+-----------------------------------------
+Number of precessess: 24
+Number of NPOINTS: 500
+Area of Mandlebrot set =   1.51121250 +/-   0.00302243
+Time =   0.69588900 seconds
+-----------------------------------------
+Processo 11 finalizado com 22743689 requisições.
+Processo 5 finalizado com 22707254 requisições.
+Processo 3 finalizado com 22700759 requisições.
+Processo 7 finalizado com 22735464 requisições.
+Processo 21 finalizado com 22479207 requisições.
+Processo 15 finalizado com 22598985 requisições.
+Processo 23 finalizado com 22533112 requisições.
+Processo 17 finalizado com 22619362 requisições.
+Processo 19 finalizado com 22550358 requisições.
+Processo 14 finalizado com 22626922 requisições.
+Processo 6 finalizado com 22664732 requisições.
+Processo 13 finalizado com 22726486 requisições.
+Processo 22 finalizado com 22537606 requisições.
+Processo 4 finalizado com 22697730 requisições.
+Processo 10 finalizado com 22743234 requisições.
+Processo 1 finalizado com 22556632 requisições.
+Processo 2 finalizado com 22604458 requisições.
+Processo 18 finalizado com 22573543 requisições.
+Processo 20 finalizado com 22410826 requisições.
+Processo 9 finalizado com 22736810 requisições.
+Processo 12 finalizado com 22737194 requisições.
+Processo 16 finalizado com 22586406 requisições.
+Processo 8 finalizado com 22707603 requisições.
+Processo 0 finalizado com 22547570 requisições.
+-----------------------------------------
+Number of precessess: 24
+Number of NPOINTS: 1000
+Area of Mandlebrot set =   1.51020562 +/-   0.00151021
+Time =   2.14370203 seconds
+-----------------------------------------
+Processo 7 finalizado com 50941256 requisições.
+Processo 13 finalizado com 50653466 requisições.
+Processo 19 finalizado com 50938290 requisições.
+Processo 11 finalizado com 50540914 requisições.
+Processo 10 finalizado com 50479975 requisições.
+Processo 1 finalizado com 51145594 requisições.
+Processo 5 finalizado com 51036514 requisições.
+Processo 17 finalizado com 50820762 requisições.
+Processo 15 finalizado com 50690688 requisições.
+Processo 14 finalizado com 50687214 requisições.
+Processo 23 finalizado com 51208144 requisições.
+Processo 6 finalizado com 50870964 requisições.
+Processo 22 finalizado com 51225051 requisições.
+Processo 4 finalizado com 51094416 requisições.
+Processo 21 finalizado com 51064947 requisições.
+Processo 3 finalizado com 51143135 requisições.
+Processo 9 finalizado com 50615603 requisições.
+Processo 12 finalizado com 50550388 requisições.
+Processo 20 finalizado com 50941345 requisições.
+Processo 2 finalizado com 51152792 requisições.
+Processo 18 finalizado com 50833345 requisições.
+Processo 16 finalizado com 50815590 requisições.
+Processo 8 finalizado com 50846982 requisições.
+Processo 0 finalizado com 51145508 requisições.
+-----------------------------------------
+Number of precessess: 24
+Number of NPOINTS: 1500
+Area of Mandlebrot set =   1.50959500 +/-   0.00100640
+Time =   4.60478592 seconds
+-----------------------------------------
+Processo 13 finalizado com 90435844 requisições.
+Processo 19 finalizado com 90443015 requisições.
+Processo 7 finalizado com 90495522 requisições.
+Processo 1 finalizado com 90535392 requisições.
+Processo 11 finalizado com 90492908 requisições.
+Processo 10 finalizado com 90590395 requisições.
+Processo 5 finalizado com 90459949 requisições.
+Processo 17 finalizado com 90315058 requisições.
+Processo 15 finalizado com 90369232 requisições.
+Processo 14 finalizado com 90513325 requisições.
+Processo 3 finalizado com 90408457 requisições.
+Processo 23 finalizado com 90457165 requisições.
+Processo 21 finalizado com 90507043 requisições.
+Processo 22 finalizado com 90483234 requisições.
+Processo 6 finalizado com 90523632 requisições.
+Processo 4 finalizado com 90422176 requisições.
+Processo 12 finalizado com 90404557 requisições.
+Processo 18 finalizado com 90409331 requisições.
+Processo 9 finalizado com 90632421 requisições.
+Processo 2 finalizado com 90487379 requisições.
+Processo 20 finalizado com 90509563 requisições.
+Processo 16 finalizado com 90173710 requisições.
+Processo 8 finalizado com 90487397 requisições.
+Processo 0 finalizado com 90496982 requisições.
+-----------------------------------------
+Number of precessess: 24
+Number of NPOINTS: 2000
+Area of Mandlebrot set =   1.50928453 +/-   0.00075464
+Time =   8.20416594 seconds
+-----------------------------------------
+Processo 7 finalizado com 141242154 requisições.
+Processo 13 finalizado com 141520219 requisições.
+Processo 19 finalizado com 141813590 requisições.
+Processo 1 finalizado com 140825389 requisições.
+Processo 11 finalizado com 141371117 requisições.
+Processo 10 finalizado com 141231246 requisições.
+Processo 5 finalizado com 141156090 requisições.
+Processo 15 finalizado com 141423806 requisições.
+Processo 17 finalizado com 141521089 requisições.
+Processo 3 finalizado com 140917364 requisições.
+Processo 6 finalizado com 141244040 requisições.
+Processo 14 finalizado com 141491410 requisições.
+Processo 23 finalizado com 141368616 requisições.
+Processo 4 finalizado com 141026750 requisições.
+Processo 2 finalizado com 140728321 requisições.
+Processo 21 finalizado com 141620792 requisições.
+Processo 22 finalizado com 141404775 requisições.
+Processo 12 finalizado com 141520111 requisições.
+Processo 9 finalizado com 141227507 requisições.
+Processo 18 finalizado com 141727666 requisições.
+Processo 20 finalizado com 141693502 requisições.
+Processo 16 finalizado com 141408821 requisições.
+Processo 8 finalizado com 141158224 requisições.
+Processo 0 finalizado com 141109170 requisições.
+-----------------------------------------
+Number of precessess: 24
+Number of NPOINTS: 2500
+Area of Mandlebrot set =   1.50905790 +/-   0.00060362
+Time =  12.82410192 seconds
+-----------------------------------------
+Processo 7 finalizado com 203677513 requisições.
+Processo 13 finalizado com 203615121 requisições.
+Processo 19 finalizado com 203302793 requisições.
+Processo 1 finalizado com 203364045 requisições.
+Processo 11 finalizado com 203466355 requisições.
+Processo 10 finalizado com 203608691 requisições.
+Processo 5 finalizado com 203483206 requisições.
+Processo 3 finalizado com 203591166 requisições.
+Processo 15 finalizado com 203578287 requisições.
+Processo 17 finalizado com 203306021 requisições.
+Processo 21 finalizado com 203395403 requisições.
+Processo 6 finalizado com 203600679 requisições.
+Processo 14 finalizado com 203664475 requisições.
+Processo 2 finalizado com 203503216 requisições.
+Processo 4 finalizado com 203599368 requisições.
+Processo 12 finalizado com 203347804 requisições.
+Processo 9 finalizado com 203796128 requisições.
+Processo 23 finalizado com 203480700 requisições.
+Processo 18 finalizado com 203318692 requisições.
+Processo 22 finalizado com 203396363 requisições.
+Processo 20 finalizado com 203326785 requisições.
+Processo 16 finalizado com 203478500 requisições.
+Processo 8 finalizado com 203725323 requisições.
+Processo 0 finalizado com 203346356 requisições.
+-----------------------------------------
+Number of precessess: 24
+Number of NPOINTS: 3000
+Area of Mandlebrot set =   1.50903813 +/-   0.00050301
+Time =  18.49219298 seconds
+-----------------------------------------
+Processo 7 finalizado com 277183082 requisições.
+Processo 13 finalizado com 276974804 requisições.
+Processo 19 finalizado com 276909465 requisições.
+Processo 1 finalizado com 276988654 requisições.
+Processo 11 finalizado com 277102586 requisições.
+Processo 10 finalizado com 277110255 requisições.
+Processo 15 finalizado com 276740284 requisições.
+Processo 17 finalizado com 276709755 requisições.
+Processo 3 finalizado com 277285196 requisições.
+Processo 5 finalizado com 277239095 requisições.
+Processo 21 finalizado com 276810941 requisições.
+Processo 14 finalizado com 276687993 requisições.
+Processo 6 finalizado com 277166299 requisições.
+Processo 2 finalizado com 277062868 requisições.
+Processo 18 finalizado com 276810555 requisições.
+Processo 4 finalizado com 277192555 requisições.
+Processo 9 finalizado com 277043802 requisições.
+Processo 12 finalizado com 277061868 requisições.
+Processo 23 finalizado com 276871641 requisições.
+Processo 22 finalizado com 276812390 requisições.
+Processo 20 finalizado com 276802254 requisições.
+Processo 16 finalizado com 276638588 requisições.
+Processo 0 finalizado com 276945179 requisições.
+Processo 8 finalizado com 277139611 requisições.
+-----------------------------------------
+Number of precessess: 24
+Number of NPOINTS: 3500
+Area of Mandlebrot set =   1.50894735 +/-   0.00043113
+Time =  25.18978810 seconds
+-----------------------------------------
+Processo 7 finalizado com 361397607 requisições.
+Processo 13 finalizado com 361694281 requisições.
+Processo 1 finalizado com 361749374 requisições.
+Processo 19 finalizado com 362189601 requisições.
+Processo 11 finalizado com 361557802 requisições.
+Processo 10 finalizado com 361415921 requisições.
+Processo 5 finalizado com 361811246 requisições.
+Processo 17 finalizado com 362028406 requisições.
+Processo 15 finalizado com 361802281 requisições.
+Processo 14 finalizado com 361763515 requisições.
+Processo 21 finalizado com 361828663 requisições.
+Processo 23 finalizado com 361735814 requisições.
+Processo 22 finalizado com 361745485 requisições.
+Processo 20 finalizado com 362026268 requisições.
+Processo 3 finalizado com 361833621 requisições.
+Processo 9 finalizado com 361257288 requisições.
+Processo 6 finalizado com 361463258 requisições.
+Processo 4 finalizado com 361966238 requisições.
+Processo 2 finalizado com 361786537 requisições.
+Processo 12 finalizado com 361687466 requisições.
+Processo 8 finalizado com 361069522 requisições.
+Processo 18 finalizado com 362173728 requisições.
+Processo 16 finalizado com 361873458 requisições.
+Processo 0 finalizado com 361699320 requisições.
+-----------------------------------------
+Number of precessess: 24
+Number of NPOINTS: 4000
+Area of Mandlebrot set =   1.50881590 +/-   0.00037720
+Time =  32.05285597 seconds
+-----------------------------------------
+Processo 7 finalizado com 457317980 requisições.
+Processo 13 finalizado com 457750894 requisições.
+Processo 1 finalizado com 457943397 requisições.
+Processo 19 finalizado com 458199401 requisições.
+Processo 11 finalizado com 457678791 requisições.
+Processo 5 finalizado com 457116906 requisições.
+Processo 17 finalizado com 458335853 requisições.
+Processo 23 finalizado com 458232929 requisições.
+Processo 15 finalizado com 457979585 requisições.
+Processo 3 finalizado com 457470112 requisições.
+Processo 2 finalizado com 457750683 requisições.
+Processo 14 finalizado com 457848300 requisições.
+Processo 6 finalizado com 457138290 requisições.
+Processo 9 finalizado com 457533992 requisições.
+Processo 12 finalizado com 457553298 requisições.
+Processo 10 finalizado com 457677623 requisições.
+Processo 8 finalizado com 457483282 requisições.
+Processo 21 finalizado com 458314014 requisições.
+Processo 18 finalizado com 458138167 requisições.
+Processo 4 finalizado com 457205187 requisições.
+Processo 22 finalizado com 458328512 requisições.
+Processo 20 finalizado com 458305583 requisições.
+Processo 16 finalizado com 458161212 requisições.
+Processo 0 finalizado com 458126998 requisições.
+-----------------------------------------
+Number of precessess: 24
+Number of NPOINTS: 4500
+Area of Mandlebrot set =   1.50882444 +/-   0.00033529
+Time =  39.96779203 seconds
+-----------------------------------------
+Processo 7 finalizado com 564696882 requisições.
+Processo 13 finalizado com 565877734 requisições.
+Processo 1 finalizado com 564753091 requisições.
+Processo 19 finalizado com 565426108 requisições.
+Processo 5 finalizado com 564546554 requisições.
+Processo 11 finalizado com 565654388 requisições.
+Processo 10 finalizado com 565237229 requisições.
+Processo 17 finalizado com 565465220 requisições.
+Processo 23 finalizado com 565287337 requisições.
+Processo 22 finalizado com 565365304 requisições.
+Processo 3 finalizado com 564598855 requisições.
+Processo 2 finalizado com 564542838 requisições.
+Processo 6 finalizado com 564519496 requisições.
+Processo 4 finalizado com 564356136 requisições.
+Processo 9 finalizado com 564981219 requisições.
+Processo 15 finalizado com 565813620 requisições.
+Processo 14 finalizado com 566034739 requisições.
+Processo 12 finalizado com 565793987 requisições.
+Processo 8 finalizado com 564763790 requisições.
+Processo 21 finalizado com 565278260 requisições.
+Processo 20 finalizado com 565123357 requisições.
+Processo 18 finalizado com 565584434 requisições.
+Processo 16 finalizado com 565545123 requisições.
+Processo 0 finalizado com 565082890 requisições.
+-----------------------------------------
+Number of precessess: 24
+Number of NPOINTS: 5000
+Area of Mandlebrot set =   1.50875573 +/-   0.00030175
+Time =  48.58203912 seconds
+-----------------------------------------
+------------------\n\n
+Processo 13 finalizado com 2664986 requisições.
+Processo 1 finalizado com 2660438 requisições.
+Processo 5 finalizado com 2639264 requisições.
+Processo 11 finalizado com 2617668 requisições.
+Processo 21 finalizado com 2860844 requisições.
+Processo 3 finalizado com 2625679 requisições.
+Processo 7 finalizado com 2654224 requisições.
+Processo 15 finalizado com 2702629 requisições.
+Processo 17 finalizado com 2773961 requisições.
+Processo 6 finalizado com 2639133 requisições.
+Processo 19 finalizado com 2788627 requisições.
+Processo 9 finalizado com 2641161 requisições.
+Processo 33 finalizado com 3031758 requisições.
+Processo 37 finalizado com 2967903 requisições.
+Processo 18 finalizado com 2791435 requisições.
+Processo 23 finalizado com 2952349 requisições.
+Processo 4 finalizado com 2654918 requisições.
+Processo 35 finalizado com 2980897 requisições.
+Processo 25 finalizado com 3028108 requisições.
+Processo 27 finalizado com 3040861 requisições.
+Processo 29 finalizado com 3014411 requisições.
+Processo 10 finalizado com 2561367 requisições.
+Processo 39 finalizado com 2976167 requisições.
+Processo 31 finalizado com 3028268 requisições.
+Processo 41 finalizado com 2958913 requisições.
+Processo 14 finalizado com 2686411 requisições.
+Processo 43 finalizado com 2850016 requisições.
+Processo 2 finalizado com 2652365 requisições.
+Processo 45 finalizado com 2770356 requisições.
+Processo 30 finalizado com 3018069 requisições.
+Processo 34 finalizado com 3005126 requisições.
+Processo 47 finalizado com 2729209 requisições.
+Processo 42 finalizado com 2930681 requisições.
+Processo 46 finalizado com 2749415 requisições.
+Processo 22 finalizado com 2901755 requisições.
+Processo 12 finalizado com 2640041 requisições.
+Processo 26 finalizado com 3043121 requisições.
+Processo 28 finalizado com 3005980 requisições.
+Processo 38 finalizado com 2980720 requisições.
+Processo 20 finalizado com 2823265 requisições.
+Processo 24 finalizado com 2982815 requisições.
+Processo 44 finalizado com 2799782 requisições.
+Processo 36 finalizado com 2958199 requisições.
+Processo 8 finalizado com 2646103 requisições.
+Processo 16 finalizado com 2729967 requisições.
+Processo 40 finalizado com 2975008 requisições.
+Processo 0 finalizado com 2703589 requisições.
+Processo 32 finalizado com 3040212 requisições.
+-----------------------------------------
+Number of precessess: 48
+Number of NPOINTS: 500
+Area of Mandlebrot set =   1.51121250 +/-   0.00302243
+Time =   0.97614098 seconds
+-----------------------------------------
+Processo 7 finalizado com 11320126 requisições.
+Processo 3 finalizado com 11384995 requisições.
+Processo 15 finalizado com 11390575 requisições.
+Processo 19 finalizado com 11276027 requisições.
+Processo 11 finalizado com 11306457 requisições.
+Processo 5 finalizado com 11368273 requisições.
+Processo 23 finalizado com 11156131 requisições.
+Processo 31 finalizado com 11415338 requisições.
+Processo 27 finalizado com 11315764 requisições.
+Processo 39 finalizado com 11208410 requisições.
+Processo 29 finalizado com 11338981 requisições.
+Processo 43 finalizado com 11274331 requisições.
+Processo 14 finalizado com 11355422 requisições.
+Processo 13 finalizado com 11343959 requisições.
+Processo 6 finalizado com 11318537 requisições.
+Processo 35 finalizado com 11437232 requisições.
+Processo 47 finalizado com 11376981 requisições.
+Processo 25 finalizado com 11204879 requisições.
+Processo 30 finalizado com 11346195 requisições.
+Processo 22 finalizado com 11190351 requisições.
+Processo 21 finalizado com 11191452 requisições.
+Processo 45 finalizado com 11287755 requisições.
+Processo 26 finalizado com 11249886 requisições.
+Processo 9 finalizado com 11323960 requisições.
+Processo 10 finalizado com 11298919 requisições.
+Processo 46 finalizado com 11347255 requisições.
+Processo 37 finalizado com 11382527 requisições.
+Processo 12 finalizado com 11296898 requisições.
+Processo 38 finalizado com 11271500 requisições.
+Processo 42 finalizado com 11253621 requisições.
+Processo 20 finalizado com 11125610 requisições.
+Processo 41 finalizado com 11267849 requisições.
+Processo 17 finalizado com 11351513 requisições.
+Processo 4 finalizado com 11374142 requisições.
+Processo 18 finalizado com 11319922 requisições.
+Processo 28 finalizado com 11323588 requisições.
+Processo 44 finalizado com 11285216 requisições.
+Processo 33 finalizado com 11412850 requisições.
+Processo 1 finalizado com 11351753 requisições.
+Processo 2 finalizado com 11354572 requisições.
+Processo 36 finalizado com 11440296 requisições.
+Processo 8 finalizado com 11304567 requisições.
+Processo 34 finalizado com 11444315 requisições.
+Processo 24 finalizado com 11187863 requisições.
+Processo 40 finalizado com 11228973 requisições.
+Processo 32 finalizado com 11403036 requisições.
+Processo 16 finalizado com 11357433 requisições.
+Processo 0 finalizado com 11359707 requisições.
+-----------------------------------------
+Number of precessess: 48
+Number of NPOINTS: 1000
+Area of Mandlebrot set =   1.51020562 +/-   0.00151021
+Time =   2.14371419 seconds
+-----------------------------------------
+Processo 11 finalizado com 25218298 requisições.
+Processo 3 finalizado com 25337942 requisições.
+Processo 15 finalizado com 25371196 requisições.
+Processo 7 finalizado com 25325244 requisições.
+Processo 5 finalizado com 25314021 requisições.
+Processo 6 finalizado com 25312710 requisições.
+Processo 14 finalizado com 25355814 requisições.
+Processo 39 finalizado com 25319492 requisições.
+Processo 29 finalizado com 25722493 requisições.
+Processo 19 finalizado com 25652596 requisições.
+Processo 27 finalizado com 25805193 requisições.
+Processo 47 finalizado com 25458668 requisições.
+Processo 35 finalizado com 25322616 requisições.
+Processo 9 finalizado com 25140577 requisições.
+Processo 43 finalizado com 25285694 requisições.
+Processo 13 finalizado com 25339716 requisições.
+Processo 23 finalizado com 25749476 requisições.
+Processo 31 finalizado com 25616012 requisições.
+Processo 45 finalizado com 25349609 requisições.
+Processo 30 finalizado com 25558254 requisições.
+Processo 10 finalizado com 25141630 requisições.
+Processo 38 finalizado com 25331400 requisições.
+Processo 25 finalizado com 25801786 requisições.
+Processo 12 finalizado com 25250662 requisições.
+Processo 17 finalizado com 25488940 requisições.
+Processo 21 finalizado com 25715338 requisições.
+Processo 26 finalizado com 25804873 requisições.
+Processo 42 finalizado com 25315021 requisições.
+Processo 37 finalizado com 25313750 requisições.
+Processo 46 finalizado com 25429390 requisições.
+Processo 41 finalizado com 25331822 requisições.
+Processo 22 finalizado com 25795661 requisições.
+Processo 8 finalizado com 25238384 requisições.
+Processo 44 finalizado com 25281966 requisições.
+Processo 18 finalizado com 25518324 requisições.
+Processo 20 finalizado com 25659379 requisições.
+Processo 4 finalizado com 25331742 requisições.
+Processo 2 finalizado com 25347919 requisições.
+Processo 33 finalizado com 25475026 requisições.
+Processo 36 finalizado com 25299726 requisições.
+Processo 34 finalizado com 25338345 requisições.
+Processo 1 finalizado com 25343808 requisições.
+Processo 28 finalizado com 25762674 requisições.
+Processo 24 finalizado com 25759278 requisições.
+Processo 40 finalizado com 25349380 requisições.
+Processo 32 finalizado com 25608598 requisições.
+Processo 16 finalizado com 25466210 requisições.
+Processo 0 finalizado com 25386230 requisições.
+-----------------------------------------
+Number of precessess: 48
+Number of NPOINTS: 1500
+Area of Mandlebrot set =   1.50959500 +/-   0.00100640
+Time =   4.41156507 seconds
+-----------------------------------------
+Processo 3 finalizado com 45114539 requisições.
+Processo 11 finalizado com 45329027 requisições.
+Processo 39 finalizado com 44955755 requisições.
+Processo 15 finalizado com 45413477 requisições.
+Processo 5 finalizado com 45309753 requisições.
+Processo 35 finalizado com 45163881 requisições.
+Processo 29 finalizado com 45150196 requisições.
+Processo 47 finalizado com 45040516 requisições.
+Processo 14 finalizado com 45444096 requisições.
+Processo 27 finalizado com 45293918 requisições.
+Processo 45 finalizado com 45054305 requisições.
+Processo 9 finalizado com 45433008 requisições.
+Processo 23 finalizado com 45416649 requisições.
+Processo 7 finalizado com 45334188 requisições.
+Processo 41 finalizado com 44911351 requisições.
+Processo 38 finalizado com 45069229 requisições.
+Processo 6 finalizado com 45357159 requisições.
+Processo 43 finalizado com 45007303 requisições.
+Processo 31 finalizado com 45161334 requisições.
+Processo 42 finalizado com 44950622 requisições.
+Processo 19 finalizado com 45435712 requisições.
+Processo 21 finalizado com 45452738 requisições.
+Processo 26 finalizado com 45400162 requisições.
+Processo 13 finalizado com 45360406 requisições.
+Processo 30 finalizado com 45166473 requisições.
+Processo 12 finalizado com 45298541 requisições.
+Processo 2 finalizado com 45087217 requisições.
+Processo 17 finalizado com 45403707 requisições.
+Processo 10 finalizado com 45373672 requisições.
+Processo 33 finalizado com 45199413 requisições.
+Processo 18 finalizado com 45458709 requisições.
+Processo 46 finalizado com 45029838 requisições.
+Processo 37 finalizado com 45075438 requisições.
+Processo 22 finalizado com 45453396 requisições.
+Processo 8 finalizado com 45356956 requisições.
+Processo 20 finalizado com 45449831 requisições.
+Processo 36 finalizado com 45106016 requisições.
+Processo 25 finalizado com 45454977 requisições.
+Processo 44 finalizado com 45059732 requisições.
+Processo 4 finalizado com 45203746 requisições.
+Processo 34 finalizado com 45216723 requisições.
+Processo 1 finalizado com 45080415 requisições.
+Processo 40 finalizado com 44792191 requisições.
+Processo 32 finalizado com 45130441 requisições.
+Processo 28 finalizado com 45218430 requisições.
+Processo 24 finalizado com 45427938 requisições.
+Processo 0 finalizado com 45069044 requisições.
+Processo 16 finalizado com 45381519 requisições.
+-----------------------------------------
+Number of precessess: 48
+Number of NPOINTS: 2000
+Area of Mandlebrot set =   1.50928453 +/-   0.00075464
+Time =   8.00373387 seconds
+-----------------------------------------
+Processo 3 finalizado com 70232486 requisições.
+Processo 11 finalizado com 70690850 requisições.
+Processo 5 finalizado com 70381853 requisições.
+Processo 47 finalizado com 70464670 requisições.
+Processo 39 finalizado com 70621273 requisições.
+Processo 35 finalizado com 70680267 requisições.
+Processo 29 finalizado com 70774237 requisições.
+Processo 15 finalizado com 70802533 requisições.
+Processo 14 finalizado com 70832990 requisições.
+Processo 38 finalizado com 70658420 requisições.
+Processo 2 finalizado com 70100598 requisições.
+Processo 27 finalizado com 70684878 requisições.
+Processo 45 finalizado com 70533129 requisições.
+Processo 23 finalizado com 70903946 requisições.
+Processo 41 finalizado com 70594340 requisições.
+Processo 9 finalizado com 70510012 requisições.
+Processo 26 finalizado com 70627723 requisições.
+Processo 7 finalizado com 70459372 requisições.
+Processo 6 finalizado com 70504054 requisições.
+Processo 17 finalizado com 70926749 requisições.
+Processo 33 finalizado com 70717495 requisições.
+Processo 43 finalizado com 70683497 requisições.
+Processo 21 finalizado com 71087663 requisições.
+Processo 42 finalizado com 70666558 requisições.
+Processo 19 finalizado com 71130093 requisições.
+Processo 31 finalizado com 70782782 requisições.
+Processo 10 finalizado com 70565905 requisições.
+Processo 18 finalizado com 71061108 requisições.
+Processo 30 finalizado com 70739986 requisições.
+Processo 13 finalizado com 70830617 requisições.
+Processo 12 finalizado com 70784567 requisições.
+Processo 8 finalizado com 70457510 requisições.
+Processo 46 finalizado com 70412969 requisições.
+Processo 44 finalizado com 70570090 requisições.
+Processo 4 finalizado com 70282324 requisições.
+Processo 25 finalizado com 70621285 requisições.
+Processo 1 finalizado com 70204104 requisições.
+Processo 37 finalizado com 70689602 requisições.
+Processo 36 finalizado com 70735544 requisições.
+Processo 40 finalizado com 70570003 requisições.
+Processo 28 finalizado com 70744426 requisições.
+Processo 24 finalizado com 70718716 requisições.
+Processo 22 finalizado com 70991806 requisições.
+Processo 34 finalizado com 70665341 requisições.
+Processo 20 finalizado com 71123412 requisições.
+Processo 32 finalizado com 70700714 requisições.
+Processo 0 finalizado com 70390454 requisições.
+Processo 16 finalizado com 70838818 requisições.
+-----------------------------------------
+Number of precessess: 48
+Number of NPOINTS: 2500
+Area of Mandlebrot set =   1.50905790 +/-   0.00060362
+Time =  12.35414910 seconds
+-----------------------------------------
+Processo 11 finalizado com 101924764 requisições.
+Processo 35 finalizado com 101541591 requisições.
+Processo 29 finalizado com 101234369 requisições.
+Processo 5 finalizado com 102248837 requisições.
+Processo 3 finalizado com 102252754 requisições.
+Processo 23 finalizado com 101142633 requisições.
+Processo 39 finalizado com 101838973 requisições.
+Processo 47 finalizado com 102338067 requisições.
+Processo 15 finalizado com 101739314 requisições.
+Processo 14 finalizado com 101845019 requisições.
+Processo 27 finalizado com 101338412 requisições.
+Processo 38 finalizado com 101819456 requisições.
+Processo 26 finalizado com 101239162 requisições.
+Processo 41 finalizado com 101902862 requisições.
+Processo 9 finalizado com 102178449 requisições.
+Processo 21 finalizado com 100976166 requisições.
+Processo 17 finalizado com 101403159 requisições.
+Processo 2 finalizado com 102264054 requisições.
+Processo 45 finalizado com 102419237 requisições.
+Processo 33 finalizado com 101617679 requisições.
+Processo 19 finalizado com 100980214 requisições.
+Processo 18 finalizado com 101223581 requisições.
+Processo 31 finalizado com 101481384 requisições.
+Processo 7 finalizado com 102196129 requisições.
+Processo 6 finalizado com 102240996 requisições.
+Processo 25 finalizado com 101135080 requisições.
+Processo 43 finalizado com 102322579 requisições.
+Processo 30 finalizado com 101359683 requisições.
+Processo 13 finalizado com 101876663 requisições.
+Processo 42 finalizado com 102095111 requisições.
+Processo 12 finalizado com 101713334 requisições.
+Processo 37 finalizado com 101738458 requisições.
+Processo 36 finalizado com 101634470 requisições.
+Processo 22 finalizado com 101022111 requisições.
+Processo 10 finalizado com 102033724 requisições.
+Processo 8 finalizado com 102149276 requisições.
+Processo 20 finalizado com 100925719 requisições.
+Processo 46 finalizado com 102374252 requisições.
+Processo 34 finalizado com 101574967 requisições.
+Processo 44 finalizado com 102401066 requisições.
+Processo 40 finalizado com 101832745 requisições.
+Processo 4 finalizado com 102276086 requisições.
+Processo 28 finalizado com 101323282 requisições.
+Processo 32 finalizado com 101576047 requisições.
+Processo 1 finalizado com 102228965 requisições.
+Processo 24 finalizado com 101081804 requisições.
+Processo 16 finalizado com 101645755 requisições.
+Processo 0 finalizado com 102264552 requisições.
+-----------------------------------------
+Number of precessess: 48
+Number of NPOINTS: 3000
+Area of Mandlebrot set =   1.50903813 +/-   0.00050301
+Time =  17.72766900 seconds
+-----------------------------------------
+Processo 11 finalizado com 138284302 requisições.
+Processo 23 finalizado com 137973987 requisições.
+Processo 5 finalizado com 138359544 requisições.
+Processo 15 finalizado com 137931939 requisições.
+Processo 35 finalizado com 138818284 requisições.
+Processo 14 finalizado com 137870866 requisições.
+Processo 29 finalizado com 138879551 requisições.
+Processo 3 finalizado com 138623542 requisições.
+Processo 39 finalizado com 138808345 requisições.
+Processo 27 finalizado com 138661654 requisições.
+Processo 26 finalizado com 138472511 requisições.
+Processo 17 finalizado com 137850050 requisições.
+Processo 21 finalizado com 137720539 requisições.
+Processo 47 finalizado com 138897654 requisições.
+Processo 38 finalizado com 138817127 requisições.
+Processo 41 finalizado com 138859705 requisições.
+Processo 9 finalizado com 138178627 requisições.
+Processo 2 finalizado com 138590357 requisições.
+Processo 45 finalizado com 139090402 requisições.
+Processo 33 finalizado com 138865175 requisições.
+Processo 19 finalizado com 137965860 requisições.
+Processo 18 finalizado com 137936580 requisições.
+Processo 25 finalizado com 138289776 requisições.
+Processo 7 finalizado com 138249703 requisições.
+Processo 6 finalizado com 138237439 requisições.
+Processo 13 finalizado com 138094239 requisições.
+Processo 22 finalizado com 137778066 requisições.
+Processo 20 finalizado com 137784780 requisições.
+Processo 12 finalizado com 138238507 requisições.
+Processo 10 finalizado com 138232401 requisições.
+Processo 31 finalizado com 138933379 requisições.
+Processo 8 finalizado com 138218091 requisições.
+Processo 30 finalizado com 138928860 requisições.
+Processo 43 finalizado com 138943605 requisições.
+Processo 42 finalizado com 138873975 requisições.
+Processo 37 finalizado com 138880565 requisições.
+Processo 36 finalizado com 138823361 requisições.
+Processo 4 finalizado com 138482478 requisições.
+Processo 34 finalizado com 138877854 requisições.
+Processo 28 finalizado com 138710077 requisições.
+Processo 46 finalizado com 139034324 requisições.
+Processo 1 finalizado com 138698878 requisições.
+Processo 24 finalizado com 138128034 requisições.
+Processo 44 finalizado com 139017474 requisições.
+Processo 40 finalizado com 138811999 requisições.
+Processo 32 finalizado com 138921520 requisições.
+Processo 16 finalizado com 137826589 requisições.
+Processo 0 finalizado com 138817145 requisições.
+-----------------------------------------
+Number of precessess: 48
+Number of NPOINTS: 3500
+Area of Mandlebrot set =   1.50894735 +/-   0.00043113
+Time =  24.12760210 seconds
+-----------------------------------------
+Processo 11 finalizado com 180913742 requisições.
+Processo 23 finalizado com 180764653 requisições.
+Processo 15 finalizado com 180957165 requisições.
+Processo 35 finalizado com 180644060 requisições.
+Processo 29 finalizado com 180891653 requisições.
+Processo 3 finalizado com 180939245 requisições.
+Processo 14 finalizado com 180921596 requisições.
+Processo 5 finalizado com 180919593 requisições.
+Processo 39 finalizado com 180845116 requisições.
+Processo 21 finalizado com 181013274 requisições.
+Processo 27 finalizado com 180894376 requisições.
+Processo 47 finalizado com 180971161 requisições.
+Processo 38 finalizado com 180841919 requisições.
+Processo 26 finalizado com 180797535 requisições.
+Processo 9 finalizado com 180789144 requisições.
+Processo 17 finalizado com 181080989 requisições.
+Processo 41 finalizado com 180947417 requisições.
+Processo 2 finalizado com 180989002 requisições.
+Processo 33 finalizado com 180468144 requisições.
+Processo 45 finalizado com 180815389 requisições.
+Processo 19 finalizado com 181239462 requisições.
+Processo 7 finalizado com 180800474 requisições.
+Processo 6 finalizado com 180758477 requisições.
+Processo 18 finalizado com 181221337 requisições.
+Processo 25 finalizado com 180794171 requisições.
+Processo 22 finalizado com 180896482 requisições.
+Processo 20 finalizado com 181122982 requisições.
+Processo 13 finalizado com 180883613 requisições.
+Processo 31 finalizado com 180597133 requisições.
+Processo 12 finalizado com 180970440 requisições.
+Processo 30 finalizado com 180704781 requisições.
+Processo 10 finalizado com 180847455 requisições.
+Processo 8 finalizado com 180801240 requisições.
+Processo 43 finalizado com 180950139 requisições.
+Processo 37 finalizado com 180810668 requisições.
+Processo 42 finalizado com 180952391 requisições.
+Processo 36 finalizado com 180717026 requisições.
+Processo 34 finalizado com 180568466 requisições.
+Processo 1 finalizado com 180955203 requisições.
+Processo 46 finalizado com 180849003 requisições.
+Processo 4 finalizado com 180961802 requisições.
+Processo 44 finalizado com 180903286 requisições.
+Processo 40 finalizado com 180950620 requisições.
+Processo 32 finalizado com 180268282 requisições.
+Processo 28 finalizado com 181004436 requisições.
+Processo 24 finalizado com 180751652 requisições.
+Processo 16 finalizado com 180922838 requisições.
+Processo 0 finalizado com 180947668 requisições.
+-----------------------------------------
+Number of precessess: 48
+Number of NPOINTS: 4000
+Area of Mandlebrot set =   1.50881590 +/-   0.00037720
+Time =  31.59566808 seconds
+-----------------------------------------
+Processo 5 finalizado com 228507692 requisições.
+Processo 11 finalizado com 228885741 requisições.
+Processo 3 finalizado com 228799936 requisições.
+Processo 29 finalizado com 228609214 requisições.
+Processo 23 finalizado com 228980056 requisições.
+Processo 35 finalizado com 228793050 requisições.
+Processo 15 finalizado com 228888059 requisições.
+Processo 14 finalizado com 228855394 requisições.
+Processo 27 finalizado com 228670176 requisições.
+Processo 39 finalizado com 229091526 requisições.
+Processo 26 finalizado com 228783514 requisições.
+Processo 9 finalizado com 228773134 requisições.
+Processo 21 finalizado com 229093652 requisições.
+Processo 38 finalizado com 228992906 requisições.
+Processo 47 finalizado com 229252873 requisições.
+Processo 17 finalizado com 229173523 requisições.
+Processo 2 finalizado com 228967169 requisições.
+Processo 41 finalizado com 229162330 requisições.
+Processo 33 finalizado com 228760858 requisições.
+Processo 45 finalizado com 229220362 requisições.
+Processo 31 finalizado com 228755492 requisições.
+Processo 7 finalizado com 228562488 requisições.
+Processo 25 finalizado com 228726703 requisições.
+Processo 30 finalizado com 228674116 requisições.
+Processo 6 finalizado com 228464174 requisições.
+Processo 19 finalizado com 229051172 requisições.
+Processo 18 finalizado com 229180802 requisições.
+Processo 22 finalizado com 229020451 requisições.
+Processo 13 finalizado com 228827959 requisições.
+Processo 20 finalizado com 229090990 requisições.
+Processo 12 finalizado com 228789567 requisições.
+Processo 43 finalizado com 229148229 requisições.
+Processo 10 finalizado com 228880543 requisições.
+Processo 8 finalizado com 228664370 requisições.
+Processo 42 finalizado com 228957365 requisições.
+Processo 28 finalizado com 228625666 requisições.
+Processo 36 finalizado com 228763731 requisições.
+Processo 37 finalizado com 228922935 requisições.
+Processo 24 finalizado com 228899744 requisições.
+Processo 4 finalizado com 228579521 requisições.
+Processo 34 finalizado com 228797080 requisições.
+Processo 46 finalizado com 229308061 requisições.
+Processo 1 finalizado com 229216694 requisições.
+Processo 44 finalizado com 229214593 requisições.
+Processo 40 finalizado com 229096079 requisições.
+Processo 32 finalizado com 228818912 requisições.
+Processo 16 finalizado com 229065133 requisições.
+Processo 0 finalizado com 229227254 requisições.
+-----------------------------------------
+Number of precessess: 48
+Number of NPOINTS: 4500
+Area of Mandlebrot set =   1.50882444 +/-   0.00033529
+Time =  39.85559702 seconds
+-----------------------------------------
+Processo 5 finalizado com 281697135 requisições.
+Processo 3 finalizado com 281640385 requisições.
+Processo 11 finalizado com 282397151 requisições.
+Processo 15 finalizado com 282329281 requisições.
+Processo 29 finalizado com 282849419 requisições.
+Processo 14 finalizado com 282457437 requisições.
+Processo 23 finalizado com 282926466 requisições.
+Processo 35 finalizado com 283257237 requisições.
+Processo 2 finalizado com 281601800 requisições.
+Processo 9 finalizado com 282095182 requisições.
+Processo 17 finalizado com 282264822 requisições.
+Processo 47 finalizado com 282360871 requisições.
+Processo 21 finalizado com 282531987 requisições.
+Processo 27 finalizado com 282958470 requisições.
+Processo 26 finalizado com 282941038 requisições.
+Processo 41 finalizado com 283200398 requisições.
+Processo 39 finalizado com 283484339 requisições.
+Processo 38 finalizado com 283577302 requisições.
+Processo 33 finalizado com 282886037 requisições.
+Processo 45 finalizado com 282746273 requisições.
+Processo 7 finalizado com 281877894 requisições.
+Processo 6 finalizado com 281749483 requisições.
+Processo 18 finalizado com 282412093 requisições.
+Processo 19 finalizado com 282470395 requisições.
+Processo 31 finalizado com 282818988 requisições.
+Processo 22 finalizado com 282698372 requisições.
+Processo 25 finalizado com 282903339 requisições.
+Processo 20 finalizado com 282390630 requisições.
+Processo 30 finalizado com 282770013 requisições.
+Processo 13 finalizado com 282425563 requisições.
+Processo 12 finalizado com 282429886 requisições.
+Processo 4 finalizado com 281399136 requisições.
+Processo 10 finalizado com 282252475 requisições.
+Processo 8 finalizado com 281982358 requisições.
+Processo 1 finalizado com 281849752 requisições.
+Processo 43 finalizado com 282955713 requisições.
+Processo 42 finalizado com 283172341 requisições.
+Processo 28 finalizado com 282957000 requisições.
+Processo 24 finalizado com 282968057 requisições.
+Processo 34 finalizado com 282984754 requisições.
+Processo 37 finalizado com 283452171 requisições.
+Processo 36 finalizado com 283364101 requisições.
+Processo 46 finalizado com 282666932 requisições.
+Processo 44 finalizado com 282732727 requisições.
+Processo 16 finalizado com 282212398 requisições.
+Processo 40 finalizado com 283332725 requisições.
+Processo 0 finalizado com 282114833 requisições.
+-----------------------------------------
+Number of precessess: 48
+Processo 32 finalizado com 282781432 requisições.
+Number of NPOINTS: 5000
+Area of Mandlebrot set =   1.50875573 +/-   0.00030175
+Time =  48.83987784 seconds
+-----------------------------------------
+------------------\n\n
+Final Time is Sun Jun 21 21:15:23 EDT 2020
+
+--------------------------------------
+Running PBS epilogue.user script
+
+End of PBS epilogue.user script
+
+--------------------------------------
+Running PBS epilogue script
+
+Disabling access of user pp12722 on the batch nodes
+Doing node grad03
+Doing node grad04
+Doing node grad05
+
+ -- Killing all stale user  processes... done.
+ -- Cleaning-up any shmemory segments... done.
+
+Done.
+
+Resources used:
+
+ -- CPU TIME     = 00:21:53 
+
+ -- MEMORY       = 210036kb 
+
+ -- VIRTUAL MEM  = 7524728kb 
+
+ -- ELAPSED TIME = 00:16:24 
+

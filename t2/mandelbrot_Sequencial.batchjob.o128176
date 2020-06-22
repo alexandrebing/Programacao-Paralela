@@ -1,0 +1,104 @@
+--------------------------------------
+Running PBS prologue script
+
+Checking all prerequisites...
+Done.
+
+Running on host grad03
+
+Initial Time is Sun Jun 21 20:57:44 EDT 2020
+
+Directory is /home/pp12722/Programacao-Paralela/t2
+
+This jobs runs on the following nodes:
+grad03 grad04
+
+JOB_ID:
+128176
+
+Processo 0 finalizado com 135878174 requisições.
+-----------------------------------------
+Number of NPOINTS: 500
+Area of Mandlebrot set =   1.51121250 +/-   0.00302243
+Time =   1.46257687 seconds
+-----------------------------------------
+Processo 0 finalizado com 543125942 requisições.
+-----------------------------------------
+Number of NPOINTS: 1000
+Area of Mandlebrot set =   1.51020562 +/-   0.00151021
+Time =   5.84428596 seconds
+-----------------------------------------
+Processo 0 finalizado com 1221442883 requisições.
+-----------------------------------------
+Number of NPOINTS: 1500
+Area of Mandlebrot set =   1.50959500 +/-   0.00100640
+Time =  13.16321898 seconds
+-----------------------------------------
+Processo 0 finalizado com 2171053687 requisições.
+-----------------------------------------
+Number of NPOINTS: 2000
+Area of Mandlebrot set =   1.50928453 +/-   0.00075464
+Time =  23.39359999 seconds
+-----------------------------------------
+Processo 0 finalizado com 3391751769 requisições.
+-----------------------------------------
+Number of NPOINTS: 2500
+Area of Mandlebrot set =   1.50905790 +/-   0.00060362
+Time =  36.84620690 seconds
+-----------------------------------------
+Processo 0 finalizado com 4883972990 requisições.
+-----------------------------------------
+Number of NPOINTS: 3000
+Area of Mandlebrot set =   1.50903813 +/-   0.00050301
+Time =  55.51550603 seconds
+-----------------------------------------
+Processo 0 finalizado com 6647289720 requisições.
+-----------------------------------------
+Number of NPOINTS: 3500
+Area of Mandlebrot set =   1.50894735 +/-   0.00043113
+Time =  75.58870888 seconds
+-----------------------------------------
+Processo 0 finalizado com 8681556700 requisições.
+-----------------------------------------
+Number of NPOINTS: 4000
+Area of Mandlebrot set =   1.50881590 +/-   0.00037720
+Time =  98.65196800 seconds
+-----------------------------------------
+Processo 0 finalizado com 10987590989 requisições.
+-----------------------------------------
+Number of NPOINTS: 4500
+Area of Mandlebrot set =   1.50882444 +/-   0.00033529
+Time = 124.83741498 seconds
+-----------------------------------------
+Processo 0 finalizado com 13564328591 requisições.
+-----------------------------------------
+Number of NPOINTS: 5000
+Area of Mandlebrot set =   1.50875573 +/-   0.00030175
+Time = 154.08171415 seconds
+-----------------------------------------
+Final Time is Sun Jun 21 21:07:34 EDT 2020
+
+--------------------------------------
+Running PBS epilogue.user script
+
+End of PBS epilogue.user script
+
+--------------------------------------
+Running PBS epilogue script
+
+Disabling access of user pp12722 on the batch nodes
+Doing node grad03
+Doing node grad04
+
+Done.
+
+Resources used:
+
+ -- CPU TIME     = 00:09:43 
+
+ -- MEMORY       = 9268kb 
+
+ -- VIRTUAL MEM  = 188296kb 
+
+ -- ELAPSED TIME = 00:09:51 
+
