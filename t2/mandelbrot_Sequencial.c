@@ -32,6 +32,7 @@ int main(int argc, char *argv[])
 
     for (NPOINTS = 500; NPOINTS <= 5000; NPOINTS += 500)
     {
+        long int requisitions = 0;
         start = MPI_Wtime();
         int numoutside = 0;
         for (i = 0; i < NPOINTS; i++)
@@ -46,6 +47,7 @@ int main(int argc, char *argv[])
                     ztemp = (z.real * z.real) - (z.imag * z.imag) + c.real;
                     z.imag = z.real * z.imag * 2 + c.imag;
                     z.real = ztemp;
+                    requisitions += 1;
                     if ((z.real * z.real + z.imag * z.imag) > 4.0e0)
                     {
                         numoutside++;
@@ -60,11 +62,17 @@ int main(int argc, char *argv[])
    *  Calculate area and error and output the results
    */
 
+        printf("Processo 0 finalizado com %ld requisições.\n", requisitions);
+        requisitions = 0;
+
         area = 2.0 * 2.5 * 1.125 * (double)(NPOINTS * NPOINTS - numoutside) / (double)(NPOINTS * NPOINTS);
         error = area / (double)NPOINTS;
 
-        printf("Area of Mandlebrot set = %12.8f +/- %12.8f\n", area, error);
-        printf("Time = %12.8f seconds\n", finish - start);
+            printf("-----------------------------------------\n");
+            printf("Number of NPOINTS: %d\n", NPOINTS);
+            printf("Area of Mandlebrot set = %12.8f +/- %12.8f\n", area, error);
+            printf("Time = %12.8f seconds\n", finish - start);
+            printf("-----------------------------------------\n");
     }
 
     MPI_Finalize();
