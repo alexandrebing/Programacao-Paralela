@@ -1,0 +1,355 @@
+--------------------------------------
+Running PBS prologue script
+
+Checking all prerequisites...
+Done.
+
+Running on host grad02
+
+Initial Time is Wed Jun 24 22:57:28 BRT 2020
+
+Directory is /home/pp12722/Programacao-Paralela/t2/testes/openmp/2-nodos
+
+This jobs runs on the following nodes:
+grad02 grad06
+
+JOB_ID:
+128512
+
+-----------------------------------------
+Number of precessess: 4
+Number of NPOINTS: 500
+Area of Mandlebrot set =   1.51121250 +/-   0.00302243
+Time =   0.39341903 seconds
+-----------------------------------------
+-----------------------------------------
+Number of precessess: 4
+Number of NPOINTS: 1000
+Area of Mandlebrot set =   1.51020562 +/-   0.00151021
+Time =   1.54186702 seconds
+-----------------------------------------
+-----------------------------------------
+Number of precessess: 4
+Number of NPOINTS: 1500
+Area of Mandlebrot set =   1.50959500 +/-   0.00100640
+Time =   3.44146609 seconds
+-----------------------------------------
+-----------------------------------------
+Number of precessess: 4
+Number of NPOINTS: 2000
+Area of Mandlebrot set =   1.50928453 +/-   0.00075464
+Time =   6.14112997 seconds
+-----------------------------------------
+-----------------------------------------
+Number of precessess: 4
+Number of NPOINTS: 2500
+Area of Mandlebrot set =   1.50905790 +/-   0.00060362
+Time =   9.56199813 seconds
+-----------------------------------------
+-----------------------------------------
+Number of precessess: 4
+Number of NPOINTS: 3000
+Area of Mandlebrot set =   1.50903813 +/-   0.00050301
+Time =  13.80980706 seconds
+-----------------------------------------
+-----------------------------------------
+Number of precessess: 4
+Number of NPOINTS: 3500
+Area of Mandlebrot set =   1.50894735 +/-   0.00043113
+Time =  18.73999786 seconds
+-----------------------------------------
+-----------------------------------------
+Number of precessess: 4
+Number of NPOINTS: 4000
+Area of Mandlebrot set =   1.50881590 +/-   0.00037720
+Time =  24.48861909 seconds
+-----------------------------------------
+-----------------------------------------
+Number of precessess: 4
+Number of NPOINTS: 4500
+Area of Mandlebrot set =   1.50882444 +/-   0.00033529
+Time =  30.96383500 seconds
+-----------------------------------------
+-----------------------------------------
+Number of precessess: 4
+Number of NPOINTS: 5000
+Area of Mandlebrot set =   1.50875573 +/-   0.00030175
+Time =  37.95045590 seconds
+-----------------------------------------
+------------------\n\n
+-----------------------------------------
+Number of precessess: 8
+Number of NPOINTS: 500
+Area of Mandlebrot set =   1.51121250 +/-   0.00302243
+Time =   0.22511506 seconds
+-----------------------------------------
+-----------------------------------------
+Number of precessess: 8
+Number of NPOINTS: 1000
+Area of Mandlebrot set =   1.51020562 +/-   0.00151021
+Time =   0.81336999 seconds
+-----------------------------------------
+-----------------------------------------
+Number of precessess: 8
+Number of NPOINTS: 1500
+Area of Mandlebrot set =   1.50959500 +/-   0.00100640
+Time =   1.76213884 seconds
+-----------------------------------------
+-----------------------------------------
+Number of precessess: 8
+Number of NPOINTS: 2000
+Area of Mandlebrot set =   1.50928453 +/-   0.00075464
+Time =   3.09442616 seconds
+-----------------------------------------
+-----------------------------------------
+Number of precessess: 8
+Number of NPOINTS: 2500
+Area of Mandlebrot set =   1.50905790 +/-   0.00060362
+Time =   4.74386215 seconds
+-----------------------------------------
+-----------------------------------------
+Number of precessess: 8
+Number of NPOINTS: 3000
+Area of Mandlebrot set =   1.50903813 +/-   0.00050301
+Time =   6.96365809 seconds
+-----------------------------------------
+-----------------------------------------
+Number of precessess: 8
+Number of NPOINTS: 3500
+Area of Mandlebrot set =   1.50894735 +/-   0.00043113
+Time =   9.31164980 seconds
+-----------------------------------------
+-----------------------------------------
+Number of precessess: 8
+Number of NPOINTS: 4000
+Area of Mandlebrot set =   1.50881590 +/-   0.00037720
+Time =  12.40317011 seconds
+-----------------------------------------
+-----------------------------------------
+Number of precessess: 8
+Number of NPOINTS: 4500
+Area of Mandlebrot set =   1.50882444 +/-   0.00033529
+Time =  15.70211411 seconds
+-----------------------------------------
+-----------------------------------------
+Number of precessess: 8
+Number of NPOINTS: 5000
+Area of Mandlebrot set =   1.50875573 +/-   0.00030175
+Time =  19.37180281 seconds
+-----------------------------------------
+------------------\n\n
+-----------------------------------------
+Number of precessess: 16
+Number of NPOINTS: 500
+Area of Mandlebrot set =   1.51121250 +/-   0.00302243
+Time =   0.19833183 seconds
+-----------------------------------------
+-----------------------------------------
+Number of precessess: 16
+Number of NPOINTS: 1000
+Area of Mandlebrot set =   1.51020562 +/-   0.00151021
+Time =   0.60164714 seconds
+-----------------------------------------
+-----------------------------------------
+Number of precessess: 16
+Number of NPOINTS: 1500
+Area of Mandlebrot set =   1.50959500 +/-   0.00100640
+Time =   0.92018890 seconds
+-----------------------------------------
+-----------------------------------------
+Number of precessess: 16
+Number of NPOINTS: 2000
+Area of Mandlebrot set =   1.50928453 +/-   0.00075464
+Time =   2.09872890 seconds
+-----------------------------------------
+-----------------------------------------
+Number of precessess: 16
+Number of NPOINTS: 2500
+Area of Mandlebrot set =   1.50905790 +/-   0.00060362
+Time =   3.27664685 seconds
+-----------------------------------------
+-----------------------------------------
+Number of precessess: 16
+Number of NPOINTS: 3000
+Area of Mandlebrot set =   1.50903813 +/-   0.00050301
+Time =   4.25586796 seconds
+-----------------------------------------
+-----------------------------------------
+Number of precessess: 16
+Number of NPOINTS: 3500
+Area of Mandlebrot set =   1.50894735 +/-   0.00043113
+Time =   4.67493391 seconds
+-----------------------------------------
+-----------------------------------------
+Number of precessess: 16
+Number of NPOINTS: 4000
+Area of Mandlebrot set =   1.50881590 +/-   0.00037720
+Time =   6.45070100 seconds
+-----------------------------------------
+-----------------------------------------
+Number of precessess: 16
+Number of NPOINTS: 4500
+Area of Mandlebrot set =   1.50882444 +/-   0.00033529
+Time =   7.70507789 seconds
+-----------------------------------------
+-----------------------------------------
+Number of precessess: 16
+Number of NPOINTS: 5000
+Area of Mandlebrot set =   1.50875573 +/-   0.00030175
+Time =   9.44349194 seconds
+-----------------------------------------
+------------------\n\n
+-----------------------------------------
+Number of precessess: 32
+Number of NPOINTS: 500
+Area of Mandlebrot set =   1.51121250 +/-   0.00302243
+Time =   0.27450514 seconds
+-----------------------------------------
+-----------------------------------------
+Number of precessess: 32
+Number of NPOINTS: 1000
+Area of Mandlebrot set =   1.51020562 +/-   0.00151021
+Time =   0.36550713 seconds
+-----------------------------------------
+-----------------------------------------
+Number of precessess: 32
+Number of NPOINTS: 1500
+Area of Mandlebrot set =   1.50959500 +/-   0.00100640
+Time =   0.74224186 seconds
+-----------------------------------------
+-----------------------------------------
+Number of precessess: 32
+Number of NPOINTS: 2000
+Area of Mandlebrot set =   1.50928453 +/-   0.00075464
+Time =   1.26627898 seconds
+-----------------------------------------
+-----------------------------------------
+Number of precessess: 32
+Number of NPOINTS: 2500
+Area of Mandlebrot set =   1.50905790 +/-   0.00060362
+Time =   1.98702002 seconds
+-----------------------------------------
+-----------------------------------------
+Number of precessess: 32
+Number of NPOINTS: 3000
+Area of Mandlebrot set =   1.50903813 +/-   0.00050301
+Time =   2.81303692 seconds
+-----------------------------------------
+-----------------------------------------
+Number of precessess: 32
+Number of NPOINTS: 3500
+Area of Mandlebrot set =   1.50894735 +/-   0.00043113
+Time =   3.82919312 seconds
+-----------------------------------------
+-----------------------------------------
+Number of precessess: 32
+Number of NPOINTS: 4000
+Area of Mandlebrot set =   1.50881590 +/-   0.00037720
+Time =   4.96113491 seconds
+-----------------------------------------
+-----------------------------------------
+Number of precessess: 32
+Number of NPOINTS: 4500
+Area of Mandlebrot set =   1.50882444 +/-   0.00033529
+Time =   6.24378300 seconds
+-----------------------------------------
+-----------------------------------------
+Number of precessess: 32
+Number of NPOINTS: 5000
+Area of Mandlebrot set =   1.50875573 +/-   0.00030175
+Time =   7.53562808 seconds
+-----------------------------------------
+------------------\n\n
+-----------------------------------------
+Number of precessess: 64
+Number of NPOINTS: 500
+Area of Mandlebrot set =   1.51121250 +/-   0.00302243
+Time =   0.52036214 seconds
+-----------------------------------------
+-----------------------------------------
+Number of precessess: 64
+Number of NPOINTS: 1000
+Area of Mandlebrot set =   1.51020562 +/-   0.00151021
+Time =   0.51991606 seconds
+-----------------------------------------
+-----------------------------------------
+Number of precessess: 64
+Number of NPOINTS: 1500
+Area of Mandlebrot set =   1.50959500 +/-   0.00100640
+Time =   0.89191389 seconds
+-----------------------------------------
+-----------------------------------------
+Number of precessess: 64
+Number of NPOINTS: 2000
+Area of Mandlebrot set =   1.50928453 +/-   0.00075464
+Time =   1.61594510 seconds
+-----------------------------------------
+-----------------------------------------
+Number of precessess: 64
+Number of NPOINTS: 2500
+Area of Mandlebrot set =   1.50905790 +/-   0.00060362
+Time =   2.41194296 seconds
+-----------------------------------------
+-----------------------------------------
+Number of precessess: 64
+Number of NPOINTS: 3000
+Area of Mandlebrot set =   1.50903813 +/-   0.00050301
+Time =   3.41456389 seconds
+-----------------------------------------
+-----------------------------------------
+Number of precessess: 64
+Number of NPOINTS: 3500
+Area of Mandlebrot set =   1.50894735 +/-   0.00043113
+Time =   4.40950799 seconds
+-----------------------------------------
+-----------------------------------------
+Number of precessess: 64
+Number of NPOINTS: 4000
+Area of Mandlebrot set =   1.50881590 +/-   0.00037720
+Time =   5.78601503 seconds
+-----------------------------------------
+-----------------------------------------
+Number of precessess: 64
+Number of NPOINTS: 4500
+Area of Mandlebrot set =   1.50882444 +/-   0.00033529
+Time =   6.86213183 seconds
+-----------------------------------------
+-----------------------------------------
+Number of precessess: 64
+Number of NPOINTS: 5000
+Area of Mandlebrot set =   1.50875573 +/-   0.00030175
+Time =   5.06981993 seconds
+-----------------------------------------
+------------------\n\n
+Final Time is Wed Jun 24 23:02:57 BRT 2020
+
+--------------------------------------
+Running PBS epilogue.user script
+
+End of PBS epilogue.user script
+
+--------------------------------------
+Running PBS epilogue script
+
+Disabling access of user pp12722 on the batch nodes
+Doing node grad02
+
+ -- Killing all stale user  processes... done.
+ -- Cleaning-up any shmemory segments... done.
+Doing node grad06
+
+ -- Killing all stale user  processes... done.
+ -- Cleaning-up any shmemory segments... done.
+
+Done.
+
+Resources used:
+
+ -- CPU TIME     = 00:30:01 
+
+ -- MEMORY       = 280648kb 
+
+ -- VIRTUAL MEM  = 17809952kb 
+
+ -- ELAPSED TIME = 00:05:30 
+
