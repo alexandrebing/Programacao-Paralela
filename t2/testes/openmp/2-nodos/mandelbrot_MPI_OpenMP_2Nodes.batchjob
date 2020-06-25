@@ -18,6 +18,8 @@ echo
 echo JOB_ID:
 echo `echo $PBS_JOBID`
 echo ###########
+mpirun --bynode -np 2 ../../../mandelbrot_MPI_OpenMP
+echo "------------------\n\n"
 mpirun --bynode -np 4 ../../../mandelbrot_MPI_OpenMP
 echo "------------------\n\n"
 mpirun --bynode -np 8 ../../../mandelbrot_MPI_OpenMP
@@ -25,7 +27,5 @@ echo "------------------\n\n"
 mpirun --bynode -np 16 ../../../mandelbrot_MPI_OpenMP
 echo "------------------\n\n"
 mpirun --bynode -np 32 ../../../mandelbrot_MPI_OpenMP
-echo "------------------\n\n"
-mpirun --bynode -np 64 ../../../mandelbrot_MPI_OpenMP
 echo "------------------\n\n"
 echo Final Time is `date`
