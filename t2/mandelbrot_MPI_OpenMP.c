@@ -39,11 +39,12 @@ int main(int argc, char *argv[])
         int total = 0;
         int numoutside = 0;
         start = MPI_Wtime();
-#pragma omp parallel private(i, j, iter, c, z, ztemp)
         int numoutsideAux = 0;
+#pragma omp parallel private(i, j, iter, c, z, ztemp)
+        numoutsideAux = 0;
 //PARALLELIZING EXTERNAL LOOP
 #pragma omp for
-            for (i = 0; i < NPOINTS; i++)
+        for (i = 0; i < NPOINTS; i++)
         {
             if (i % p == id)
             {
@@ -72,15 +73,13 @@ int main(int argc, char *argv[])
 #pragma omp critical
         numoutside += numoutsideAux;
 
-            MPI_Reduce(&numoutside, &total, 1, MPI_INT,
-                       MPI_SUM, 0, MPI_COMM_WORLD);
+        MPI_Reduce(&numoutside, &total, 1, MPI_INT,
+                   MPI_SUM, 0, MPI_COMM_WORLD);
         finish = MPI_Wtime();
 
         /*
    *  Calculate area and error and output the results
    */
-        printf("Processo %d finalizado com %ld requisições.\n", id, requisitions);
-        requisitions = 0;
         if (id == 0)
         {
             area = 2.0 * 2.5 * 1.125 * (double)(NPOINTS * NPOINTS - total) / (double)(NPOINTS * NPOINTS);
