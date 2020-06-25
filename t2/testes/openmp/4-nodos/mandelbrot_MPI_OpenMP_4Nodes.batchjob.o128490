@@ -1,0 +1,87 @@
+--------------------------------------
+Running PBS prologue script
+
+Checking all prerequisites...
+Done.
+
+Running on host grad01
+
+Initial Time is Wed Jun 24 22:19:19 BRT 2020
+
+Directory is /home/pp12722/Programacao-Paralela/t2/testes/openmp/4-nodos
+
+This jobs runs on the following nodes:
+grad01 grad05 grad04 grad03
+
+JOB_ID:
+128490
+
+-----------------------------------------
+Number of precessess: 4
+Number of NPOINTS: 500
+Area of Mandlebrot set =   1.51121250 +/-   0.00302243
+Time =   0.55356789 seconds
+-----------------------------------------
+-----------------------------------------
+Number of precessess: 4
+Number of NPOINTS: 1000
+Area of Mandlebrot set =   1.51020562 +/-   0.00151021
+Time =   2.21211004 seconds
+-----------------------------------------
+-----------------------------------------
+Number of precessess: 4
+Number of NPOINTS: 1500
+Area of Mandlebrot set =   1.50959500 +/-   0.00100640
+Time =   4.97546983 seconds
+-----------------------------------------
+-----------------------------------------
+Number of precessess: 4
+Number of NPOINTS: 2000
+Area of Mandlebrot set =   1.50928453 +/-   0.00075464
+Time =   8.83615112 seconds
+-----------------------------------------
+mpirun: killing job...
+
+mpirun: abort is already in progress...hit ctrl-c again to forcibly terminate
+
+[grad01:28246] [[41114,0],0]-[[41114,0],2] mca_oob_tcp_msg_recv: readv failed: Connection reset by peer (104)
+[grad01:28246] [[41114,0],0]-[[41114,0],1] mca_oob_tcp_msg_recv: readv failed: Connection reset by peer (104)
+
+--------------------------------------
+Running PBS epilogue.user script
+
+End of PBS epilogue.user script
+
+--------------------------------------
+Running PBS epilogue script
+
+Disabling access of user pp12722 on the batch nodes
+Doing node grad01
+
+ -- Killing all stale user  processes... done.
+ -- Cleaning-up any shmemory segments... done.
+Doing node grad03
+
+ -- Killing all stale user  processes... done.
+ -- Cleaning-up any shmemory segments... done.
+Doing node grad04
+
+ -- Killing all stale user  processes... done.
+ -- Cleaning-up any shmemory segments... done.
+Doing node grad05
+
+ -- Killing all stale user  processes... done.
+ -- Cleaning-up any shmemory segments... done.
+
+Done.
+
+Resources used:
+
+ -- CPU TIME     = 00:00:31 
+
+ -- MEMORY       = 27080kb 
+
+ -- VIRTUAL MEM  = 1048720kb 
+
+ -- ELAPSED TIME = 00:00:21 
+
