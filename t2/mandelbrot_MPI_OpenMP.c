@@ -40,15 +40,15 @@ int main(int argc, char *argv[])
         int numoutside = 0;
         start = MPI_Wtime();
         int numoutsideAux = 0;
-#pragma omp parallel private(i, j, iter, c, z, ztemp)
-        numoutsideAux = 0;
 //PARALLELIZING EXTERNAL LOOP
-#pragma omp for
+
         for (i = 0; i < NPOINTS; i++)
         {
             if (i % p == id)
             {
-
+                #pragma omp parallel private(i, j, iter, c, z, ztemp)
+        numoutsideAux = 0;
+        #pragma omp for
                 for (j = 0; j < NPOINTS; j++)
                 {
                     c.real = -2.0 + 2.5 * (double)(i) / (double)(NPOINTS) + 1.0e-7;
@@ -69,9 +69,9 @@ int main(int argc, char *argv[])
                 }
                 fflush(stdout);
             }
+            #pragma omp critical
+            numoutside += numoutsideAux;
         }
-#pragma omp critical
-        numoutside += numoutsideAux;
 
         MPI_Reduce(&numoutside, &total, 1, MPI_INT,
                    MPI_SUM, 0, MPI_COMM_WORLD);
