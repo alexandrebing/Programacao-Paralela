@@ -1,0 +1,31 @@
+#!/bin/bash
+#PBS -m abe
+#PBS -V
+#PBS -l nodes=4:ppn=16:cluster-Grad,walltime=00:50:00
+#PBS -r n
+#PBS -j oe
+#PBS -d /home/pp12722/Programacao-Paralela/t2/testes/openmp/4-nodos/
+################
+echo Running on host `hostname`
+echo
+echo Initial Time is `date`
+echo 
+echo Directory is `pwd`
+echo
+echo This jobs runs on the following nodes:
+echo `cat $PBS_NODEFILE | uniq`
+echo
+echo JOB_ID:
+echo `echo $PBS_JOBID`
+echo ###########
+mpirun --bynode -np 4 ../../../mandelbrot_MPI_OpenMP_1
+echo "------------------\n\n"
+mpirun --bynode -np 8 ../../../mandelbrot_MPI_OpenMP_1
+echo "------------------\n\n"
+mpirun --bynode -np 16 ../../../mandelbrot_MPI_OpenMP_1
+echo "------------------\n\n"
+mpirun --bynode -np 32 ../../../mandelbrot_MPI_OpenMP_1
+echo "------------------\n\n"
+mpirun --bynode -np 64 ../../../mandelbrot_MPI_OpenMP_1
+echo "------------------\n\n"
+echo Final Time is `date`
