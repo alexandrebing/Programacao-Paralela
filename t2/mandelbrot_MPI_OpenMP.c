@@ -36,12 +36,11 @@ int main(int argc, char *argv[])
 
     for (NPOINTS = 500; NPOINTS <= 5000; NPOINTS += 500)
     {
-        long int requisitions = 0;
         int total = 0;
         int numoutside = 0;
         start = MPI_Wtime();
 #pragma omp parallel private(i, j, iter, c, z, ztemp)
-        int numoutsideAux = 0
+        int numoutsideAux = 0;
 //PARALLELIZING EXTERNAL LOOP
 #pragma omp for
             for (i = 0; i < NPOINTS; i++)
@@ -59,7 +58,6 @@ int main(int argc, char *argv[])
                         ztemp = (z.real * z.real) - (z.imag * z.imag) + c.real;
                         z.imag = z.real * z.imag * 2 + c.imag;
                         z.real = ztemp;
-                        requisitions += 1;
                         if ((z.real * z.real + z.imag * z.imag) > 4.0e0)
                         {
                             numoutsideAux++;
@@ -72,7 +70,7 @@ int main(int argc, char *argv[])
             }
         }
 #pragma omp critical
-        numoutside += numoutsideAux
+        numoutside += numoutsideAux;
 
             MPI_Reduce(&numoutside, &total, 1, MPI_INT,
                        MPI_SUM, 0, MPI_COMM_WORLD);
